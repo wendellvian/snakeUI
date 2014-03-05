@@ -173,12 +173,19 @@
   border-left: 1px solid #ba1a01;
 }
 .cup-button-disable {
-  background: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  color: #dadada;
   cursor: default;
+  background: #f2f2f2;
+  color: #dadada;
 }
 .cup-button-disable:hover {
   background: #f2f2f2;
   color: #dadada;
+}
+.cup-button-disable .cup-button-ic-left {
+  background-color: #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+.cup-button-disable .cup-button-ic-right {
+  background-color: #e5e5e5;
+  border-left: 1px solid #e5e5e5;
 }
