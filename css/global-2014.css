@@ -1,0 +1,207 @@
+/*
+* 全局样式 2014.02.01 v1.0 beta
+* 修改日志：（如对本文件修改，请按照下边格式记录）
+* 2014.02.18 huangwei 第一次整理,移除无用老旧样式，抽离公共样式到common.css样式表,其它未知样式移动到g-old.css样式表；
+*
+*/
+
+/* base */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
+fieldset,img{border:0}
+h1{font-size:150%}
+h2{font-size:140%}
+h3{font-size:120%}
+h4,h5,h6{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:link,a:visited{text-decoration:none}
+a:hover{text-decoration:underline}
+q:before,q:after{content:'';}
+button,input,select,textarea{font-size:100%}
+input,select{vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+
+/* clear */
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.clearfix{*zoom:1}
+.clear{clear:both}
+
+/* 文字 */
+.red{color:#e60012}
+.blue{color:#0281c9}
+.org{color:#fff000}
+
+.c333{color:#333}
+.c666{color:#666}
+.c999{color:#999}
+
+.fs10{font-size:10px}
+.fs12{font-size:12px}
+.fs14{font-size:14px}
+.fs16{font-size:16px}
+.fs18{font-size:18px}
+.fwn{font-weight:normal}
+.ti2{text-indent:2em}
+.lh12{line-height:12px}
+.lh14{line-height:14px}
+.lh16{line-height:16px}
+.lh18{line-height:18px}
+.lh20{line-height:20px}
+.lh22{line-height:22px}
+.lh24{line-height:24px}
+.lh26{line-height:26px}
+.lh28{line-height:28px}
+.lh30{line-height:30px}
+.lh35{line-height:35px}
+.lh40{line-height:40px}
+.tdu{text-decoration:underline}
+.tdn{text-decoration:none}
+
+.tal{text-align:left}
+.tac{text-align:center}
+.tar{text-align:right}
+
+/* ie6、ie7 */
+
+/* 修复IE6在 window.onload 或 domready 时重复下载Sprites图片的 Bug */ 
+html{*zoom:expression(function(ele){ele.style.zoom="1";document.execCommand("BackgroundImageCache",false,true);}(this));}
+.zm{*zoom:1}
+
+
+/* 定位 */
+.pr{position:relative}
+.pa{position:absolute}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+
+/* 边距 */
+.m0_2{margin:0 2px}
+.m0_5{margin:0 5px}
+.m0_8{margin:0 8px}
+.m0_10{margin:0 10px}
+.m5{margin:5px}
+.m10{margin:10px}
+.m15{margin:15px}
+.m20{margin:20px}
+.m30{margin:30px}
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt25{margin-top:25px}
+.mt30{margin-top:30px}
+.mt40{margin-top:40px}
+.mt50{margin-top:50px}
+.mt100{margin-top:100px}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{margin-bottom:20px}
+.mb25{margin-bottom:25px}
+.mb30{margin-bottom:30px}
+.mb40{margin-bottom:40px}
+.mb50{margin-bottom:50px}
+.mb100{margin-bottom:100px}
+.ml5{margin-left:5px}
+.ml10{margin-left:10px}
+.ml15{margin-left:15px}
+.ml20{margin-left:20px}
+.ml25{margin-left:25px}
+.ml30{margin-left:30px}
+.ml40{margin-left:40px}
+.ml50{margin-left:50px}
+.ml100{margin-left:100px}
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.mr15{margin-right:15px}
+.mr20{margin-right:20px}
+.mr25{margin-right:25px}
+.mr30{margin-right:30px}
+.mr40{margin-right:40px}
+.mr50{margin-right:50px}
+.mr100{margin-right:100px}
+.p0_2{ padding:0 2px}
+.p0_5{ padding:0 5px}
+.p0_8{ padding:0 8px}
+.p0_10{ padding:0 10px}
+.p5{padding:5px}
+.p10{padding:10px}
+.p15{padding:15px}
+.p20{padding:20px}
+.p25{padding:25px}
+.p30{padding:30px}
+.pt5{padding-top:5px}
+.pt10{padding-top:10px}
+.pt15{padding-top:15px}
+.pt20{padding-top:20px}
+.pt25{padding-top:25px}
+.pt30{padding-top:30px}
+.pt40{padding-top:40px}
+.pt50{padding-top:50px}
+.pt100{padding-top:100px}
+.pb5{padding-bottom:5px}
+.pb10{padding-bottom:10px}
+.pb15{padding-bottom:15px}
+.pb20{padding-bottom:20px}
+.pb25{padding-bottom:25px}
+.pb30{padding-bottom:30px}
+.pb40{padding-bottom:40px}
+.pb50{padding-bottom:50px}
+.pb100{padding-bottom:100px}
+.pl5{padding-left:5px}
+.pl10{padding-left:10px}
+.pl15{padding-left:15px}
+.pl20{padding-left:20px}
+.pl25{padding-left:25px}
+.pl30{padding-left:30px}
+.pl40{padding-left:40px}
+.pl50{padding-left:50px}
+.pl100{padding-left:100px}
+.pr5{padding-right:5px}
+.pr10{padding-right:10px}
+.pr15{padding-right:15px}
+.pr20{padding-right:20px}
+.pr25{padding-right:25px}
+.pr30{padding-right:30px}
+.pr40{padding-right:40px}
+.pr50{padding-right:50px}
+.pr100{padding-right:100px}
+
+
+
+
+
+/* 显示/隐藏 */
+.hidden{visibility:hidden}
+.visible{visibility:visible}
+.none{display:none}
+.block{display:block}
+
+/* 鼠标 */
+.hand{ cursor:pointer}
+
+
+/* 现有常用宽度 */
+.w217{width:217px}
+.w220{width:220px}
+.w228{width:228px}
+.w230{width:230px}
+.w240{width:240px}
+.w250{width:250px}
+.w270{width:270px}
+.w310{width:310px}
+.w360{width:360px}
+.w490{width:490px}
+.w678{width:678px}
+.w680{width:680px}
+.w700{width:700px}
+.w710{width:710px}
+.w718{width:718px}
+.w720{width:720px}
+.w730{width:730px}
+.w734{width:734px}
+.w958{width:958px}
+.w960{width:960px}
+
