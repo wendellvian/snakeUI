@@ -2,13 +2,13 @@
     // 按扭色模块
     #mod-buttonColor{
     
-    // @BeginColor->渐变开始颜色
-    // @EndColor->渐变结末颜色
-    // @HoverBeginColor->鼠标移入渐变开始颜色
-    // @HoverEndColor->鼠标移入渐变结束颜色
-    // @FontColor->字体颜色
-    // @HoverFontColor->鼠标移入字体颜色
-    // a~z：FF3.6+ > Chrome,Safari4+ > Chrome10+,Safari5.1+ > Opera 11.10+ > IE10+ > W3C > IE6-9
+        // @BeginColor->渐变开始颜色
+        // @EndColor->渐变结末颜色
+        // @HoverBeginColor->鼠标移入渐变开始颜色
+        // @HoverEndColor->鼠标移入渐变结束颜色
+        // @FontColor->字体颜色
+        // @HoverFontColor->鼠标移入字体颜色
+        // a~z：FF3.6+ > Chrome,Safari4+ > Chrome10+,Safari5.1+ > Opera 11.10+ > IE10+ > W3C > IE6-9
     
         .mod-button-gradientColor(@BeginColor,@EndColor,@HoverBeginColor,@HoverEndColor,@FontColor,@HoverFontColor){
             background:@BeginColor;border:1px solid darken(@EndColor,10%);
@@ -31,12 +31,7 @@
                 background:linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
                 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=@HoverBeginColor,endColorstr=@HoverEndColor,GradientType=0 );
             }
-            .cup-button-ic-left{
-                #mod-buttonIco > .mod-buttonIc-left(@BeginColor,darken(@EndColor,10%));
-            }
-            .cup-button-ic-right{
-                #mod-buttonIco > .mod-buttonIc-right(@BeginColor,darken(@EndColor,10%));
-            }
+            #mod-buttonIco > .mod-buttonIc-posi(darken(@BeginColor,5%),darken(@EndColor,10%));
         }
         // 扁平色
         .mod-button-flatColor(@BgColor,@HoverBgColor,@FontColor,@HoverFontColor){
@@ -46,12 +41,7 @@
                 background:@HoverBgColor;
                 color:@HoverFontColor;
             }
-            .cup-button-ic-left{
-                #mod-buttonIco > .mod-buttonIc-left(lighten(@BgColor,5%),darken(@BgColor,5%));
-            }
-            .cup-button-ic-right{
-                #mod-buttonIco > .mod-buttonIc-right(lighten(@BgColor,5%),darken(@BgColor,5%));
-            }
+            #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,5%),darken(@BgColor,5%));
         }
     }// #mod-buttonColor-end
 
@@ -63,11 +53,13 @@
             margin:-2px 10px 0 10px;_margin-top:-3px;
             overflow:hidden;vertical-align:middle;
         }
-        .mod-buttonIc-left(@BgColor,@BordColor){
-            background:@BgColor;border-right:1px solid @BordColor;
-        }
-        .mod-buttonIc-right(@BgColor,@BordColor){
-            background:@BgColor;border-left:1px solid @BordColor;
+        .mod-buttonIc-posi(@BgColor,@BordColor){
+            .cup-button-ic-left{
+                background-color:@BgColor;border-right:1px solid @BordColor;
+            }
+            .cup-button-ic-right{
+                background-color:@BgColor;border-left:1px solid @BordColor;
+            }
         }
     }// #mod-buttonIco-end
     

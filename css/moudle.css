@@ -70,11 +70,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, GradientType=0);
 }
 .cup-button-gray .cup-button-ic-left {
-  background: #ffffff;
+  background-color: #f2f2f2;
   border-right: 1px solid #d6d6d6;
 }
 .cup-button-gray .cup-button-ic-right {
-  background: #ffffff;
+  background-color: #f2f2f2;
   border-left: 1px solid #d6d6d6;
 }
 .cup-button-red {
@@ -101,11 +101,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d40f0f, endColorstr=#f24400, GradientType=0);
 }
 .cup-button-red .cup-button-ic-left {
-  background: #f44242;
+  background-color: #f32a2a;
   border-right: 1px solid #a40c0c;
 }
 .cup-button-red .cup-button-ic-right {
-  background: #f44242;
+  background-color: #f32a2a;
   border-left: 1px solid #a40c0c;
 }
 .cup-button-flatBlue {
@@ -117,11 +117,11 @@
   color: #ffffff;
 }
 .cup-button-flatBlue .cup-button-ic-left {
-  background: #00adf7;
+  background-color: #0089c4;
   border-right: 1px solid #0089c4;
 }
 .cup-button-flatBlue .cup-button-ic-right {
-  background: #00adf7;
+  background-color: #0089c4;
   border-left: 1px solid #0089c4;
 }
 .cup-button-flatYellow {
@@ -133,11 +133,11 @@
   color: #ffffff;
 }
 .cup-button-flatYellow .cup-button-ic-left {
-  background: #ffdc47;
+  background-color: #ffd214;
   border-right: 1px solid #ffd214;
 }
 .cup-button-flatYellow .cup-button-ic-right {
-  background: #ffdc47;
+  background-color: #ffd214;
   border-left: 1px solid #ffd214;
 }
 .cup-button-flatGreen {
@@ -149,11 +149,11 @@
   color: #ffffff;
 }
 .cup-button-flatGreen .cup-button-ic-left {
-  background: #17c300;
+  background-color: #119100;
   border-right: 1px solid #119100;
 }
 .cup-button-flatGreen .cup-button-ic-right {
-  background: #17c300;
+  background-color: #119100;
   border-left: 1px solid #119100;
 }
 .cup-button-flatRed {
@@ -165,11 +165,11 @@
   color: #ffffff;
 }
 .cup-button-flatRed .cup-button-ic-left {
-  background: #ec2201;
+  background-color: #ba1a01;
   border-right: 1px solid #ba1a01;
 }
 .cup-button-flatRed .cup-button-ic-right {
-  background: #ec2201;
+  background-color: #ba1a01;
   border-left: 1px solid #ba1a01;
 }
 .cup-button-disable {
