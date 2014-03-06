@@ -1,19 +1,22 @@
 /**
- *	@name     : Css 基础组件
- *	@author   : Wendell
- *	@version  : 1.0
- *	@project  : 2014巴西世界杯 定制前缀cup-
+ *  @project       : Snake UI
+ *  http://wendellvian.github.io/snakeUI/
+ *  Copyright 2013 Contributors
+ * 
+ *	@author        : Wendell
+ *	@version       : v1.0
+ *  @description   : 定制前缀 sna-
  */
 /* @end **/
 
 // Load-import
-@import "moudlePack.less";
+@import "button.less";
 // -----------------------------------
 
 
 /* =按扭组------- */
     // 基础按扭
-    .cup-button{
+    .sna-button{
         display:inline-block;*display:inline;zoom:1;
         padding:5px 10px;
         text-align:center;font-size:14px;text-decoration:none;
@@ -22,49 +25,43 @@
         }
     }
     // 带小图标按扭
-    .cup-button-icon{
+    .sna-button-icon{
         display:inline-block;*display:inline;zoom:1;
         padding:2px 10px 0 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
             text-decoration:none;
         }
-        .cup-button-ic{
+        .sna-button-ic{
             #mod-buttonIco > .mod-button-ic;
-        }
-        .cup-button-ic-left{
-            margin-left:-10px;
-        }
-        .cup-button-ic-right{
-            margin-right:-10px;
         }
     }
     // 灰色系
-    .cup-button-gray{
+    .sna-button-gray{
         #mod-buttonColor > .mod-button-gradientColor(#ffffff,#efefef,#ffffff,#e8e8e8,gray,black);
     }
     // 红色系
-    .cup-button-red{
+    .sna-button-red{
         #mod-buttonColor > .mod-button-gradientColor(#f44242,#d40f0f,#d40f0f,#f24400,#fff,#fff);
     }
     // 扁平蓝色系
-    .cup-button-flatBlue{
+    .sna-button-flatBlue{
         #mod-buttonColor > .mod-button-flatColor(#009bdd,#009bdd,#fff,#fff);
     }
     // 扁平黄色系
-    .cup-button-flatYellow{
+    .sna-button-flatYellow{
         #mod-buttonColor > .mod-button-flatColor(#ffd72d,#ffd72d,#fff,#fff);
     }
     // 扁平绿色系
-    .cup-button-flatGreen{
+    .sna-button-flatGreen{
         #mod-buttonColor > .mod-button-flatColor(#14aa00,#14aa00,#fff,#fff);
     }
     // 扁平红色系
-    .cup-button-flatRed{
+    .sna-button-flatRed{
         #mod-buttonColor > .mod-button-flatColor(#d31e01,#d31e01,#fff,#fff);
     }
     // 不可点状态
-    .cup-button-disable{
+    .sna-button-disable{
         cursor:default;
         #mod-buttonColor > .mod-button-flatColor(#f2f2f2,#f2f2f2,#dadada,#dadada);
     }

@@ -1,13 +1,18 @@
 /**
- *	@name     : Css 基础组件
- *	@author   : Wendell
- *	@version  : 1.0
- *	@project  : 2014巴西世界杯 定制前缀cup-
+ *  @project       : Snake UI
+ *  http://wendellvian.github.io/snakeUI/
+ *  Copyright 2013 Contributors
+ * 
+ *	@author        : Wendell
+ *	@version       : v1.0
+ *  @description   : 定制前缀 sna-
  */
 /* @end **/
+/*******************************
+        按扭
+*******************************/
 /* =按扭组------- */
-/* =按扭组------- */
-.cup-button {
+.sna-button {
   display: inline-block;
   *display: inline;
   zoom: 1;
@@ -16,10 +21,10 @@
   font-size: 14px;
   text-decoration: none;
 }
-.cup-button:hover {
+.sna-button:hover {
   text-decoration: none;
 }
-.cup-button-icon {
+.sna-button-icon {
   display: inline-block;
   *display: inline;
   zoom: 1;
@@ -28,10 +33,10 @@
   font-size: 14px;
   text-decoration: none;
 }
-.cup-button-icon:hover {
+.sna-button-icon:hover {
   text-decoration: none;
 }
-.cup-button-icon .cup-button-ic {
+.sna-button-icon .sna-button-ic {
   display: inline-block;
   width: 28px;
   height: 28px;
@@ -40,13 +45,7 @@
   overflow: hidden;
   vertical-align: middle;
 }
-.cup-button-icon .cup-button-ic-left {
-  margin-left: -10px;
-}
-.cup-button-icon .cup-button-ic-right {
-  margin-right: -10px;
-}
-.cup-button-gray {
+.sna-button-gray {
   background: #ffffff;
   border: 1px solid #d6d6d6;
   color: #808080;
@@ -58,7 +57,7 @@
   background: linear-gradient(top, #ffffff 0%, #efefef 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#efefef, GradientType=0);
 }
-.cup-button-gray:hover {
+.sna-button-gray:hover {
   background: #e6e6e6;
   color: #000000;
   background: -moz-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
@@ -69,15 +68,17 @@
   background: linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, GradientType=0);
 }
-.cup-button-gray .cup-button-ic-left {
+.sna-button-gray .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #f2f2f2;
   border-right: 1px solid #d6d6d6;
 }
-.cup-button-gray .cup-button-ic-right {
+.sna-button-gray .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #f2f2f2;
   border-left: 1px solid #d6d6d6;
 }
-.cup-button-red {
+.sna-button-red {
   background: #f44242;
   border: 1px solid #a40c0c;
   color: #ffffff;
@@ -89,7 +90,7 @@
   background: linear-gradient(top, #f44242 0%, #d40f0f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f44242, endColorstr=#d40f0f, GradientType=0);
 }
-.cup-button-red:hover {
+.sna-button-red:hover {
   background: #f11212;
   color: #ffffff;
   background: -moz-linear-gradient(top, #d40f0f 0%, #f24400 100%);
@@ -100,92 +101,104 @@
   background: linear-gradient(top, #d40f0f 0%, #f24400 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d40f0f, endColorstr=#f24400, GradientType=0);
 }
-.cup-button-red .cup-button-ic-left {
+.sna-button-red .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #f32a2a;
   border-right: 1px solid #a40c0c;
 }
-.cup-button-red .cup-button-ic-right {
+.sna-button-red .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #f32a2a;
   border-left: 1px solid #a40c0c;
 }
-.cup-button-flatBlue {
+.sna-button-flatBlue {
   background: #009bdd;
   color: #ffffff;
 }
-.cup-button-flatBlue:hover {
+.sna-button-flatBlue:hover {
   background: #009bdd;
   color: #ffffff;
 }
-.cup-button-flatBlue .cup-button-ic-left {
+.sna-button-flatBlue .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #0089c4;
   border-right: 1px solid #0089c4;
 }
-.cup-button-flatBlue .cup-button-ic-right {
+.sna-button-flatBlue .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #0089c4;
   border-left: 1px solid #0089c4;
 }
-.cup-button-flatYellow {
+.sna-button-flatYellow {
   background: #ffd72d;
   color: #ffffff;
 }
-.cup-button-flatYellow:hover {
+.sna-button-flatYellow:hover {
   background: #ffd72d;
   color: #ffffff;
 }
-.cup-button-flatYellow .cup-button-ic-left {
+.sna-button-flatYellow .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #ffd214;
   border-right: 1px solid #ffd214;
 }
-.cup-button-flatYellow .cup-button-ic-right {
+.sna-button-flatYellow .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #ffd214;
   border-left: 1px solid #ffd214;
 }
-.cup-button-flatGreen {
+.sna-button-flatGreen {
   background: #14aa00;
   color: #ffffff;
 }
-.cup-button-flatGreen:hover {
+.sna-button-flatGreen:hover {
   background: #14aa00;
   color: #ffffff;
 }
-.cup-button-flatGreen .cup-button-ic-left {
+.sna-button-flatGreen .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #119100;
   border-right: 1px solid #119100;
 }
-.cup-button-flatGreen .cup-button-ic-right {
+.sna-button-flatGreen .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #119100;
   border-left: 1px solid #119100;
 }
-.cup-button-flatRed {
+.sna-button-flatRed {
   background: #d31e01;
   color: #ffffff;
 }
-.cup-button-flatRed:hover {
+.sna-button-flatRed:hover {
   background: #d31e01;
   color: #ffffff;
 }
-.cup-button-flatRed .cup-button-ic-left {
+.sna-button-flatRed .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #ba1a01;
   border-right: 1px solid #ba1a01;
 }
-.cup-button-flatRed .cup-button-ic-right {
+.sna-button-flatRed .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #ba1a01;
   border-left: 1px solid #ba1a01;
 }
-.cup-button-disable {
+.sna-button-disable {
   cursor: default;
   background: #f2f2f2;
   color: #dadada;
 }
-.cup-button-disable:hover {
+.sna-button-disable:hover {
   background: #f2f2f2;
   color: #dadada;
 }
-.cup-button-disable .cup-button-ic-left {
+.sna-button-disable .sna-button-ic-left {
+  margin-left: -10px;
   background-color: #e5e5e5;
   border-right: 1px solid #e5e5e5;
 }
-.cup-button-disable .cup-button-ic-right {
+.sna-button-disable .sna-button-ic-right {
+  margin-right: -10px;
   background-color: #e5e5e5;
   border-left: 1px solid #e5e5e5;
 }
