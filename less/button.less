@@ -1,5 +1,5 @@
 /*******************************
-        按扭
+        按扭模块
 *******************************/
 // 按扭色模块
 #mod-buttonColor{
@@ -12,7 +12,7 @@
     // @HoverFontColor->鼠标移入字体颜色
     // a~z：FF3.6+ > Chrome,Safari4+ > Chrome10+,Safari5.1+ > Opera 11.10+ > IE10+ > W3C > IE6-9
 
-    .mod-button-gradientColor(@BeginColor,@EndColor,@HoverBeginColor,@HoverEndColor,@FontColor,@HoverFontColor){
+    .mod-button-gradientColor(@BeginColor,@EndColor,@FontColor){
         background:@BeginColor;border:1px solid darken(@EndColor,10%);
         color:@FontColor;
         background:-moz-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
@@ -24,29 +24,29 @@
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=@BeginColor,endColorstr=@EndColor,GradientType=0 );
         &:hover{
             background:darken(@BeginColor,10%);
-            color:@HoverFontColor;
-            background:-moz-linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
-            background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,@HoverBeginColor),color-stop(100%,@HoverEndColor));
-            background:-webkit-linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
-            background:-o-linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
-            background:-ms-linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
-            background:linear-gradient(top,@HoverBeginColor 0%,@HoverEndColor 100%);
-            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=@HoverBeginColor,endColorstr=@HoverEndColor,GradientType=0 );
+            color:@FontColor;
+            background:-moz-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
+            background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,darken(@BeginColor,1%)),color-stop(100%,darken(@EndColor,5%)));
+            background:-webkit-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
+            background:-o-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
+            background:-ms-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
+            background:linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=darken(@BeginColor,1%),endColorstr=darken(@EndColor,5%),GradientType=0 );
         }
-        #mod-buttonIco > .mod-buttonIc-posi(darken(@BeginColor,5%),darken(@EndColor,10%));
+        #mod-buttonIco > .mod-buttonIc-posi(darken(@EndColor,10%));
     }
     // 扁平色
-    .mod-button-flatColor(@BgColor,@HoverBgColor,@FontColor,@HoverFontColor){
+    .mod-button-flatColor(@BgColor,@FontColor){
         background:@BgColor;
         color:@FontColor;
         &:hover{
-            background:@HoverBgColor;
-            color:@HoverFontColor;
+            background:darken(@BgColor,5%);
+            color:@FontColor;
         }
-        #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,5%),darken(@BgColor,5%));
+        #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,10%));
     }
 }
-// #mod-buttonColor-end
+// #mod-buttonColor end
 
 // 小图标模块
 #mod-buttonIco{
@@ -56,18 +56,18 @@
         margin:-2px 10px 0 10px;_margin-top:-3px;
         overflow:hidden;vertical-align:middle;
     }
-    .mod-buttonIc-posi(@BgColor,@BordColor){
+    .mod-buttonIc-posi(@BordColor){
         .sna-button-ic-left{
             margin-left:-10px;
-            background-color:@BgColor;border-right:1px solid @BordColor;
+            border-right:1px solid @BordColor;
         }
         .sna-button-ic-right{
             margin-right:-10px;
-            background-color:@BgColor;border-left:1px solid @BordColor;
+            border-left:1px solid @BordColor;
         }
     }
 }
-// #mod-buttonIco-end
+// #mod-buttonIco end
     
 
 

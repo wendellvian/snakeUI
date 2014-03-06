@@ -9,7 +9,10 @@
  */
 /* @end **/
 /*******************************
-        按扭
+        按扭模块
+*******************************/
+/*******************************
+ css3模块
 *******************************/
 /* =按扭组------- */
 .sna-button {
@@ -59,23 +62,21 @@
 }
 .sna-button-gray:hover {
   background: #e6e6e6;
-  color: #000000;
-  background: -moz-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e8e8e8));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
-  background: linear-gradient(top, #ffffff 0%, #e8e8e8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, GradientType=0);
+  color: #808080;
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e2e2e2));
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
+  background: -o-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
+  background: -ms-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
+  background: linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fcfcfc, endColorstr=#e2e2e2, GradientType=0);
 }
 .sna-button-gray .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #f2f2f2;
   border-right: 1px solid #d6d6d6;
 }
 .sna-button-gray .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #f2f2f2;
   border-left: 1px solid #d6d6d6;
 }
 .sna-button-red {
@@ -93,22 +94,20 @@
 .sna-button-red:hover {
   background: #f11212;
   color: #ffffff;
-  background: -moz-linear-gradient(top, #d40f0f 0%, #f24400 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d40f0f), color-stop(100%, #f24400));
-  background: -webkit-linear-gradient(top, #d40f0f 0%, #f24400 100%);
-  background: -o-linear-gradient(top, #d40f0f 0%, #f24400 100%);
-  background: -ms-linear-gradient(top, #d40f0f 0%, #f24400 100%);
-  background: linear-gradient(top, #d40f0f 0%, #f24400 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d40f0f, endColorstr=#f24400, GradientType=0);
+  background: -moz-linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f43d3d), color-stop(100%, #bc0d0d));
+  background: -webkit-linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
+  background: -o-linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
+  background: -ms-linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
+  background: linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f43d3d, endColorstr=#bc0d0d, GradientType=0);
 }
 .sna-button-red .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #f32a2a;
   border-right: 1px solid #a40c0c;
 }
 .sna-button-red .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #f32a2a;
   border-left: 1px solid #a40c0c;
 }
 .sna-button-flatBlue {
@@ -116,72 +115,64 @@
   color: #ffffff;
 }
 .sna-button-flatBlue:hover {
-  background: #009bdd;
+  background: #0089c4;
   color: #ffffff;
 }
 .sna-button-flatBlue .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #0089c4;
-  border-right: 1px solid #0089c4;
+  border-right: 1px solid #0077aa;
 }
 .sna-button-flatBlue .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #0089c4;
-  border-left: 1px solid #0089c4;
+  border-left: 1px solid #0077aa;
 }
 .sna-button-flatYellow {
   background: #ffd72d;
   color: #ffffff;
 }
 .sna-button-flatYellow:hover {
-  background: #ffd72d;
+  background: #ffd214;
   color: #ffffff;
 }
 .sna-button-flatYellow .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #ffd214;
-  border-right: 1px solid #ffd214;
+  border-right: 1px solid #f9ca00;
 }
 .sna-button-flatYellow .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #ffd214;
-  border-left: 1px solid #ffd214;
+  border-left: 1px solid #f9ca00;
 }
 .sna-button-flatGreen {
   background: #14aa00;
   color: #ffffff;
 }
 .sna-button-flatGreen:hover {
-  background: #14aa00;
+  background: #119100;
   color: #ffffff;
 }
 .sna-button-flatGreen .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #119100;
-  border-right: 1px solid #119100;
+  border-right: 1px solid #0e7700;
 }
 .sna-button-flatGreen .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #119100;
-  border-left: 1px solid #119100;
+  border-left: 1px solid #0e7700;
 }
 .sna-button-flatRed {
   background: #d31e01;
   color: #ffffff;
 }
 .sna-button-flatRed:hover {
-  background: #d31e01;
+  background: #ba1a01;
   color: #ffffff;
 }
 .sna-button-flatRed .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #ba1a01;
-  border-right: 1px solid #ba1a01;
+  border-right: 1px solid #a01701;
 }
 .sna-button-flatRed .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #ba1a01;
-  border-left: 1px solid #ba1a01;
+  border-left: 1px solid #a01701;
 }
 .sna-button-disable {
   cursor: default;
@@ -189,16 +180,14 @@
   color: #dadada;
 }
 .sna-button-disable:hover {
-  background: #f2f2f2;
+  background: #e5e5e5;
   color: #dadada;
 }
 .sna-button-disable .sna-button-ic-left {
   margin-left: -10px;
-  background-color: #e5e5e5;
-  border-right: 1px solid #e5e5e5;
+  border-right: 1px solid #d9d9d9;
 }
 .sna-button-disable .sna-button-ic-right {
   margin-right: -10px;
-  background-color: #e5e5e5;
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid #d9d9d9;
 }
