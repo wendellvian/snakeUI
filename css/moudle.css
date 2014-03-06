@@ -17,8 +17,7 @@
 /* =按扭组------- */
 .sna-button {
   display: inline-block;
-  *display: inline;
-  zoom: 1;
+  height: 20px;
   padding: 5px 10px;
   text-align: center;
   font-size: 14px;
@@ -29,8 +28,6 @@
 }
 .sna-button-icon {
   display: inline-block;
-  *display: inline;
-  zoom: 1;
   padding: 2px 10px 0 10px;
   text-align: center;
   font-size: 14px;
@@ -41,8 +38,8 @@
 }
 .sna-button-icon .sna-button-ic {
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   margin: -2px 10px 0 10px;
   _margin-top: -3px;
   overflow: hidden;
@@ -71,11 +68,11 @@
   background: linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fcfcfc, endColorstr=#e2e2e2, GradientType=0);
 }
-.sna-button-gray .sna-button-ic-left {
+.sna-button-gray .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #d6d6d6;
 }
-.sna-button-gray .sna-button-ic-right {
+.sna-button-gray .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #d6d6d6;
 }
@@ -102,92 +99,108 @@
   background: linear-gradient(top, #f43d3d 0%, #bc0d0d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f43d3d, endColorstr=#bc0d0d, GradientType=0);
 }
-.sna-button-red .sna-button-ic-left {
+.sna-button-red .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #a40c0c;
 }
-.sna-button-red .sna-button-ic-right {
+.sna-button-red .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #a40c0c;
 }
 .sna-button-flatBlue {
   background: #009bdd;
+  border: 1px solid #009bdd;
   color: #ffffff;
 }
 .sna-button-flatBlue:hover {
   background: #0089c4;
   color: #ffffff;
 }
-.sna-button-flatBlue .sna-button-ic-left {
+.sna-button-flatBlue .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #0077aa;
 }
-.sna-button-flatBlue .sna-button-ic-right {
+.sna-button-flatBlue .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #0077aa;
 }
 .sna-button-flatYellow {
   background: #ffd72d;
+  border: 1px solid #ffd72d;
   color: #ffffff;
 }
 .sna-button-flatYellow:hover {
   background: #ffd214;
   color: #ffffff;
 }
-.sna-button-flatYellow .sna-button-ic-left {
+.sna-button-flatYellow .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #f9ca00;
 }
-.sna-button-flatYellow .sna-button-ic-right {
+.sna-button-flatYellow .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #f9ca00;
 }
 .sna-button-flatGreen {
   background: #14aa00;
+  border: 1px solid #14aa00;
   color: #ffffff;
 }
 .sna-button-flatGreen:hover {
   background: #119100;
   color: #ffffff;
 }
-.sna-button-flatGreen .sna-button-ic-left {
+.sna-button-flatGreen .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #0e7700;
 }
-.sna-button-flatGreen .sna-button-ic-right {
+.sna-button-flatGreen .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #0e7700;
 }
 .sna-button-flatRed {
   background: #d31e01;
+  border: 1px solid #d31e01;
   color: #ffffff;
 }
 .sna-button-flatRed:hover {
   background: #ba1a01;
   color: #ffffff;
 }
-.sna-button-flatRed .sna-button-ic-left {
+.sna-button-flatRed .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #a01701;
 }
-.sna-button-flatRed .sna-button-ic-right {
+.sna-button-flatRed .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #a01701;
 }
 .sna-button-disable {
   cursor: default;
   background: #f2f2f2;
+  border: 1px solid #f2f2f2;
   color: #dadada;
 }
 .sna-button-disable:hover {
   background: #e5e5e5;
   color: #dadada;
 }
-.sna-button-disable .sna-button-ic-left {
+.sna-button-disable .sna-button-left {
   margin-left: -10px;
   border-right: 1px solid #d9d9d9;
 }
-.sna-button-disable .sna-button-ic-right {
+.sna-button-disable .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #d9d9d9;
+}
+.sna-button-disable:hover {
+  background: #f2f2f2;
+}
+.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }

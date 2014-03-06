@@ -18,7 +18,8 @@
 /* =按扭组------- */
     // 基础按扭
     .sna-button{
-        display:inline-block;*display:inline;zoom:1;
+        display:inline-block;
+        height:20px;
         padding:5px 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
@@ -27,7 +28,7 @@
     }
     // 带小图标按扭
     .sna-button-icon{
-        display:inline-block;*display:inline;zoom:1;
+        display:inline-block;
         padding:2px 10px 0 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
@@ -65,6 +66,13 @@
     .sna-button-disable{
         cursor:default;
         #mod-buttonColor > .mod-button-flatColor(#f2f2f2,#dadada);
+        &:hover{
+            background:#f2f2f2;
+        }
+    }
+    //  置灰状态
+    .sna-button-grayscale{
+        #mod-buttonColor > .mod-button-grayscale;
     }
     
 

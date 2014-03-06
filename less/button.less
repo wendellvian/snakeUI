@@ -37,7 +37,7 @@
     }
     // 扁平色
     .mod-button-flatColor(@BgColor,@FontColor){
-        background:@BgColor;
+        background:@BgColor;border:1px solid @BgColor;
         color:@FontColor;
         &:hover{
             background:darken(@BgColor,5%);
@@ -45,23 +45,32 @@
         }
         #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,10%));
     }
+    //  去色
+    .mod-button-grayscale(){
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+        filter:gray;
+        -webkit-filter:grayscale(100%);
+        -moz-filter:grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+    }
 }
 // #mod-buttonColor end
 
 // 小图标模块
 #mod-buttonIco{
-    .mod-button-ic(@Size:28px){
+    .mod-button-ic(@Size:30px){
         display:inline-block;
         width:@Size;height:@Size;
         margin:-2px 10px 0 10px;_margin-top:-3px;
         overflow:hidden;vertical-align:middle;
     }
     .mod-buttonIc-posi(@BordColor){
-        .sna-button-ic-left{
+        .sna-button-left{
             margin-left:-10px;
             border-right:1px solid @BordColor;
         }
-        .sna-button-ic-right{
+        .sna-button-right{
             margin-right:-10px;
             border-left:1px solid @BordColor;
         }
