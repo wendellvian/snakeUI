@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/moudle.css" type="text/css">
 	<style>
 		body{padding:20px;font-family:"\5FAE\8F6F\96C5\9ED1"}
-		a{vertical-align:middle;}
+		.button-group a{margin-right:10px;vertical-align:middle;}
 		.title-h1{font-size:40px;}
 		.title-h2{font-size:30px;}
 		.title-h3{margin:10px 0;padding:5px;background:#eee;border-bottom:1px solid #ddd;}
@@ -14,37 +14,59 @@
 </head>
 <body>
 	<h1 class="title-h1">Snake UI</h1>
-	<h2 class="title-h2">按扭组</h2>
-	<h3 class="title-h3" style="">常规渐变按扭</h3>
-		<a href="javascript:;" class="sna-button sna-button-gray">button</a>
-		<a href="javascript:;" class="sna-button sna-button-red">button</a>
-	<h3 class="title-h3" style="">常规扁平按扭</h3>
-		<a href="javascript:;" class="sna-button sna-button-flatBlue">button</a>
-		<a href="javascript:;" class="sna-button sna-button-flatYellow">button</a>
-		<a href="javascript:;" class="sna-button sna-button-flatGreen">button</a>
-		<a href="javascript:;" class="sna-button sna-button-flatRed">button</a>
-	<h3 class="title-h3" style="">带图标渐变按扭</h3>
-<!-- 		<a href="javascript:;" class="sna-button-icon sna-button-gray"><i class="sna-button-ic sna-icon-iphone sna-button-left">&#xe600;</i>iphone</a> -->
-		<a href="javascript:;" class="sna-button-icon sna-button-gray"><i class="sna-button-ic sna-icon-iphone sna-button-left"></i>iphone</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-red"><i class="sna-button-ic sna-icon-mobile sna-button-left"></i>mobile</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-gray">mouse<i class="sna-button-ic sna-icon-mouse sna-button-right"></i></a>
-		<a href="javascript:;" class="sna-button-icon sna-button-red">mail<i class="sna-button-ic sna-icon-mail sna-button-right"></i></a>
-	<h3 class="title-h3" style="">带图标扁平按扭</h3>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatBlue"><i class="sna-button-ic sna-icon-feather sna-button-left"></i>feather</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatYellow"><i class="sna-button-ic sna-icon-user sna-button-left"></i>user</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatGreen"><i class="sna-button-ic sna-icon-users sna-button-left"></i>users</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatRed"><i class="sna-button-ic sna-icon-vcard sna-button-left"></i>vcard</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatBlue">heart<i class="sna-button-ic sna-icon-heart sna-button-right"></i></a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatYellow">star<i class="sna-button-ic sna-icon-star sna-button-right"></i></a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatGreen">house<i class="sna-button-ic sna-icon-house sna-button-right"></i></a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatRed">cog<i class="sna-button-ic sna-icon-cog sna-button-right"></i></a>
-	<h3 class="title-h3" style="">置灰按扭</h3>
-		<a href="javascript:;" class="sna-button sna-button-red sna-button-grayscale">button</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-flatBlue sna-button-grayscale"><i class="sna-button-ic sna-icon-flashlight sna-button-left"></i>flashlight</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-red sna-button-grayscale">printer<i class="sna-button-ic sna-icon-printer sna-button-right"></i></a>
-	<h3 class="title-h3" style="">不可点按扭</h3>
-		<a href="javascript:;" class="sna-button sna-button-disable">button</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-disable"><i class="sna-button-ic sna-icon-eye sna-button-left"></i>eye</a>
-		<a href="javascript:;" class="sna-button-icon sna-button-disable">thunder<i class="sna-button-ic sna-icon-thunder sna-button-right"></i></a>
+	<div class="button-group">
+		<h2 class="title-h2">按扭组</h2>
+		<h3 class="title-h3" style="">常规渐变按扭</h3>
+			<a href="javascript:;" class="sna-button sna-button-gray">button</a>
+			<a href="javascript:;" class="sna-button sna-button-red">button</a>
+		<h3 class="title-h3" style="">常规扁平按扭</h3>
+			<a href="javascript:;" class="sna-button sna-button-flatBlue">button</a>
+			<a href="javascript:;" class="sna-button sna-button-flatYellow">button</a>
+			<a href="javascript:;" class="sna-button sna-button-flatGreen">button</a>
+			<a href="javascript:;" class="sna-button sna-button-flatRed">button</a>
+		<h3 class="title-h3" style="">带图标渐变按扭</h3>
+			<a href="javascript:;" class="sna-button-icon sna-button-gray"><i class="sna-button-ic sna-button-left sna-icon-iphone">&#xe600;</i>iphone</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-red"><i class="sna-button-ic sna-button-left sna-icon-mobile">&#xe601;</i>mobile</a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-gray">mouse<i class="sna-button-ic sna-button-right sna-icon-mouse">&#xe602;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-red">directions<i class="sna-button-ic sna-button-right sna-icon-directions">&#xe603;</i></a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-red"><i class="sna-button-ic sna-button-cenleft sna-icon-mail">&#xe604;</i>mail</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-red">paperplane<i class="sna-button-ic sna-button-cenright sna-icon-paperplane">&#xe605;</i></a>
+		<h3 class="title-h3" style="">带图标扁平按扭</h3>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue"><i class="sna-button-ic sna-button-left sna-icon-pencil">&#xee606;</i>pencil</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatYellow"><i class="sna-button-ic sna-button-left sna-icon-feather">&#xe607;</i>feather</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatGreen"><i class="sna-button-ic sna-button-left sna-icon-paperclip">&#xe608;</i>paperclip</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatRed"><i class="sna-button-ic sna-button-left sna-icon-drawer">&#xe609;</i>drawer</a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue">reply<i class="sna-button-ic sna-button-right sna-icon-reply">&#xe60a;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatYellow">reply-all<i class="sna-button-ic sna-button-right sna-icon-reply-all">&#xe60b;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatGreen">user<i class="sna-button-ic sna-button-right sna-icon-user">&#xe60c;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatRed">users<i class="sna-button-ic sna-button-right sna-icon-users">&#xe60d;</i></a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue"><i class="sna-button-ic sna-button-cenleft sna-icon-user-add">&#xe60e;</i>user-add</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatYellow"><i class="sna-button-ic sna-button-cenleft sna-icon-vcard">&#xe60f;</i>vcard</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatGreen"><i class="sna-button-ic sna-button-cenleft sna-icon-export">&#xe610;</i>export</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatRed"><i class="sna-button-ic sna-button-cenleft sna-icon-location">&#xe611;</i>location</a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue">map<i class="sna-button-ic sna-button-cenright sna-icon-map">&#xe612;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatYellow">compass<i class="sna-button-ic sna-button-cenright sna-icon-compass">&#xe613;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatGreen">location2<i class="sna-button-ic sna-button-cenright sna-icon-location2">&#xe614;</i></a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatRed">target<i class="sna-button-ic sna-button-cenright sna-icon-target">&#xe615;</i></a>
+		<h3 class="title-h3" style="">置灰按扭</h3>
+			<a href="javascript:;" class="sna-button sna-button-red sna-button-grayscale">button</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue sna-button-grayscale"><i class="sna-button-ic sna-button-left sna-icon-share">&#xe616;</i>share</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-red sna-button-grayscale">sharable<i class="sna-button-ic sna-button-right sna-icon-sharable">&#xe617;</i></a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-flatBlue sna-button-grayscale"><i class="sna-button-ic sna-button-cenleft sna-icon-heart">&#xe618;</i>heart</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-red sna-button-grayscale">heart2<i class="sna-button-ic sna-button-cenright sna-icon-heart2">&#xe619;</i></a>
+		<h3 class="title-h3" style="">不可点按扭</h3>
+			<a href="javascript:;" class="sna-button sna-button-disable">button</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-disable"><i class="sna-button-ic sna-button-left sna-icon-star">&#xe61a;</i>star</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-disable">star2<i class="sna-button-ic sna-button-right sna-icon-star2">&#xe61b;</i></a>
+			
+			<a href="javascript:;" class="sna-button-icon sna-button-disable"><i class="sna-button-ic sna-button-cenleft sna-icon-thumbs-up">&#xe61c;</i>thumbs-up</a>
+			<a href="javascript:;" class="sna-button-icon sna-button-disable">thumbs-down<i class="sna-button-ic sna-button-cenright sna-icon-thumbs-down">&#xe61d;</i></a>
+	</div>
 </body>
 </html>

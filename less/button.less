@@ -70,7 +70,8 @@
         width:@Size;height:@Size;
         margin:-2px 10px 0 10px;_margin-top:-3px;
         line-height:@Size;text-align:center;overflow:hidden;vertical-align:middle;
-        #mod-icons > .mod-icon-list > .mod-icon;
+        #mod-icons > .mod-icon-family;
+        &:before{display:block;text-align:center;}
     }
     .mod-buttonIc-posi(@BordColor){
         .sna-button-left{
@@ -80,6 +81,16 @@
         .sna-button-right{
             margin-right:-10px;
             border-left:1px solid @BordColor;
+        }
+        .sna-button-cenleft{
+            width:auto;
+            margin-left:0;
+            border:0;
+        }
+        .sna-button-cenright{
+            width:auto;
+            margin-right:0;
+            border:0;
         }
     }
 }

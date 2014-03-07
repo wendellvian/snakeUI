@@ -62,6 +62,10 @@
   font-variant: normal;
   text-transform: none;
 }
+.sna-button-icon .sna-button-ic:before {
+  display: block;
+  text-align: center;
+}
 .sna-button-icon .sna-icon-iphone:before {
   content: "\e600";
 }
@@ -942,6 +946,16 @@
   margin-right: -10px;
   border-left: 1px solid #d6d6d6;
 }
+.sna-button-gray .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-gray .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
 .sna-button-red {
   background: #f44242;
   border: 1px solid #a40c0c;
@@ -973,6 +987,16 @@
   margin-right: -10px;
   border-left: 1px solid #a40c0c;
 }
+.sna-button-red .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-red .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
 .sna-button-flatBlue {
   background: #009bdd;
   border: 1px solid #009bdd;
@@ -989,6 +1013,16 @@
 .sna-button-flatBlue .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #0077aa;
+}
+.sna-button-flatBlue .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-flatBlue .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
 }
 .sna-button-flatYellow {
   background: #ffd72d;
@@ -1007,6 +1041,16 @@
   margin-right: -10px;
   border-left: 1px solid #f9ca00;
 }
+.sna-button-flatYellow .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-flatYellow .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
 .sna-button-flatGreen {
   background: #14aa00;
   border: 1px solid #14aa00;
@@ -1023,6 +1067,16 @@
 .sna-button-flatGreen .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #0e7700;
+}
+.sna-button-flatGreen .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-flatGreen .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
 }
 .sna-button-flatRed {
   background: #d31e01;
@@ -1041,6 +1095,16 @@
   margin-right: -10px;
   border-left: 1px solid #a01701;
 }
+.sna-button-flatRed .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-flatRed .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
 .sna-button-disable {
   cursor: default;
   background: #f2f2f2;
@@ -1058,6 +1122,16 @@
 .sna-button-disable .sna-button-right {
   margin-right: -10px;
   border-left: 1px solid #d9d9d9;
+}
+.sna-button-disable .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-disable .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
 }
 .sna-button-disable:hover {
   background: #f2f2f2;
