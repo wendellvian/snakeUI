@@ -13,7 +13,7 @@
     // a~z：FF3.6+ > Chrome,Safari4+ > Chrome10+,Safari5.1+ > Opera 11.10+ > IE10+ > W3C > IE6-9
 
     .mod-button-gradientColor(@BeginColor,@EndColor,@FontColor){
-        background:@BeginColor;border:1px solid darken(@EndColor,10%);
+        background:@BeginColor;border:1px solid darken(@EndColor,20%);
         color:@FontColor;
         background:-moz-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
         background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,@BeginColor),color-stop(100%,@EndColor));
@@ -33,11 +33,11 @@
             background:linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
             filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=darken(@BeginColor,1%),endColorstr=darken(@EndColor,5%),GradientType=0 );
         }
-        #mod-buttonIco > .mod-buttonIc-posi(darken(@EndColor,10%));
+        #mod-buttonIco > .mod-buttonIc-posi(darken(@EndColor,20%));
     }
     // 扁平色
     .mod-button-flatColor(@BgColor,@FontColor){
-        background:@BgColor;border:1px solid @BgColor;
+        background:@BgColor;border:1px solid darken(@BgColor,10%);
         color:@FontColor;
         &:hover{
             background:darken(@BgColor,5%);
