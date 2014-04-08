@@ -25,7 +25,6 @@
 /* =按扭组------- */
 .sna-button {
   display: inline-block;
-  height: 22px;
   padding: 5px 10px;
   text-align: center;
   font-size: 14px;
@@ -917,7 +916,7 @@
 .sna-button-gray {
   background: #ffffff;
   border: 1px solid #bcbcbc;
-  color: #808080;
+  color: #333333;
   background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #efefef));
   background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 100%);
@@ -928,7 +927,7 @@
 }
 .sna-button-gray:hover {
   background: #e6e6e6;
-  color: #808080;
+  color: #333333;
   background: -moz-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e2e2e2));
   background: -webkit-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
@@ -997,21 +996,21 @@
   border: 0;
 }
 .sna-button-flatBlue {
-  background: #0099cc;
-  border: 1px solid #007399;
+  background: #334d5c;
+  border: 1px solid #21323b;
   color: #ffffff;
 }
 .sna-button-flatBlue:hover {
-  background: #0086b3;
+  background: #2a3f4c;
   color: #ffffff;
 }
 .sna-button-flatBlue .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #007399;
+  border-right: 1px solid #21323b;
 }
 .sna-button-flatBlue .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #007399;
+  border-left: 1px solid #21323b;
 }
 .sna-button-flatBlue .sna-button-cenleft {
   width: auto;
@@ -1024,21 +1023,21 @@
   border: 0;
 }
 .sna-button-flatYellow {
-  background: #ffcc66;
-  border: 1px solid #ffbb33;
+  background: #ffa324;
+  border: 1px solid #f08b00;
   color: #ffffff;
 }
 .sna-button-flatYellow:hover {
-  background: #ffc34c;
+  background: #ff980a;
   color: #ffffff;
 }
 .sna-button-flatYellow .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #ffbb33;
+  border-right: 1px solid #f08b00;
 }
 .sna-button-flatYellow .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #ffbb33;
+  border-left: 1px solid #f08b00;
 }
 .sna-button-flatYellow .sna-button-cenleft {
   width: auto;
@@ -1051,21 +1050,21 @@
   border: 0;
 }
 .sna-button-flatGreen {
-  background: #99cc66;
-  border: 1px solid #80bf40;
+  background: #45b29d;
+  border: 1px solid #378d7d;
   color: #ffffff;
 }
 .sna-button-flatGreen:hover {
-  background: #8cc653;
+  background: #3ea08d;
   color: #ffffff;
 }
 .sna-button-flatGreen .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #80bf40;
+  border-right: 1px solid #378d7d;
 }
 .sna-button-flatGreen .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #80bf40;
+  border-left: 1px solid #378d7d;
 }
 .sna-button-flatGreen .sna-button-cenleft {
   width: auto;
@@ -1078,21 +1077,21 @@
   border: 0;
 }
 .sna-button-flatRed {
-  background: #ff6666;
-  border: 1px solid #ff3333;
+  background: #df5a49;
+  border: 1px solid #d03825;
   color: #ffffff;
 }
 .sna-button-flatRed:hover {
-  background: #ff4c4c;
+  background: #db4633;
   color: #ffffff;
 }
 .sna-button-flatRed .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #ff3333;
+  border-right: 1px solid #d03825;
 }
 .sna-button-flatRed .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #ff3333;
+  border-left: 1px solid #d03825;
 }
 .sna-button-flatRed .sna-button-cenleft {
   width: auto;
