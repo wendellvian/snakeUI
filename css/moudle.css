@@ -12,9 +12,6 @@
     Button Module
 *******************************/
 /*******************************
-    Css3 Module
-*******************************/
-/*******************************
     Icon Module
 *******************************/
 @font-face {
@@ -22,6 +19,9 @@
   src: url('../fonts/icomoon.eot?-u42xjt');
   src: url('../fonts/icomoon.eot?#iefix-u42xjt') format('embedded-opentype'), url('../fonts/icomoon.woff?-u42xjt') format('woff'), url('../fonts/icomoon.ttf?-u42xjt') format('truetype'), url('../fonts/icomoon.svg?-u42xjt#icomoon') format('svg');
 }
+/*******************************
+    Css3 Module
+*******************************/
 /* =按扭组------- */
 .sna-button {
   display: inline-block;
@@ -35,7 +35,7 @@
 }
 .sna-button-icon {
   display: inline-block;
-  padding: 2px 10px 0 10px;
+  padding: 0 10px;
   text-align: center;
   font-size: 14px;
   text-decoration: none;
@@ -47,8 +47,7 @@
   display: inline-block;
   width: 32px;
   height: 32px;
-  margin: -2px 10px 0 10px;
-  _margin-top: -3px;
+  margin: 0 10px;
   line-height: 32px;
   text-align: center;
   overflow: hidden;
@@ -913,77 +912,274 @@
 .sna-button-icon .sna-icon-ccw:before {
   content: "\e689";
 }
-.sna-button-gray {
-  background: #ffffff;
-  border: 1px solid #bcbcbc;
-  color: #333333;
-  background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #efefef));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #efefef 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #efefef 100%);
-  background: linear-gradient(top, #ffffff 0%, #efefef 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#efefef, GradientType=0);
+.sna-button-blue {
+  background: #334d5c;
+  border: 1px solid #21323b;
+  color: #ffffff;
 }
-.sna-button-gray:hover {
-  background: #e6e6e6;
-  color: #333333;
-  background: -moz-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e2e2e2));
-  background: -webkit-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
-  background: -o-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
-  background: -ms-linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
-  background: linear-gradient(top, #fcfcfc 0%, #e2e2e2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fcfcfc, endColorstr=#e2e2e2, GradientType=0);
+.sna-button-blue:hover {
+  background: #2a3f4c;
+  color: #ffffff;
 }
-.sna-button-gray .sna-button-left {
+.sna-button-blue .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #bcbcbc;
+  border-right: 1px solid #21323b;
 }
-.sna-button-gray .sna-button-right {
+.sna-button-blue .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #bcbcbc;
+  border-left: 1px solid #21323b;
 }
-.sna-button-gray .sna-button-cenleft {
+.sna-button-blue .sna-button-cenleft {
   width: auto;
   margin-left: 0;
   border: 0;
 }
-.sna-button-gray .sna-button-cenright {
+.sna-button-blue .sna-button-cenright {
   width: auto;
   margin-right: 0;
   border: 0;
 }
-.sna-button-red {
-  background: #ff0033;
-  border: 1px solid #cc0000;
+.sna-button-blue.sna-button-gradient {
+  background: #334d5c;
+  border: 1px solid #18242b;
   color: #ffffff;
-  background: -moz-linear-gradient(top, #ff0033 0%, #ff3333 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff0033), color-stop(100%, #ff3333));
-  background: -webkit-linear-gradient(top, #ff0033 0%, #ff3333 100%);
-  background: -o-linear-gradient(top, #ff0033 0%, #ff3333 100%);
-  background: -ms-linear-gradient(top, #ff0033 0%, #ff3333 100%);
-  background: linear-gradient(top, #ff0033 0%, #ff3333 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff0033, endColorstr=#ff3333, GradientType=0);
+  background: -moz-linear-gradient(top, #3c5b6c 0%, #21323b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c5b6c), color-stop(100%, #21323b));
+  background: -webkit-linear-gradient(top, #3c5b6c 0%, #21323b 100%);
+  background: -o-linear-gradient(top, #3c5b6c 0%, #21323b 100%);
+  background: -ms-linear-gradient(top, #3c5b6c 0%, #21323b 100%);
+  background: linear-gradient(top, #3c5b6c 0%, #21323b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3c5b6c, endColorstr=#21323b, GradientType=0);
+}
+.sna-button-blue.sna-button-gradient:hover {
+  background: #21323b;
+  color: #ffffff;
+  background: -moz-linear-gradient(top, #334d5c 0%, #2a3f4c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #334d5c), color-stop(100%, #2a3f4c));
+  background: -webkit-linear-gradient(top, #334d5c 0%, #2a3f4c 100%);
+  background: -o-linear-gradient(top, #334d5c 0%, #2a3f4c 100%);
+  background: -ms-linear-gradient(top, #334d5c 0%, #2a3f4c 100%);
+  background: linear-gradient(top, #334d5c 0%, #2a3f4c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#334d5c, endColorstr=#2a3f4c, GradientType=0);
+}
+.sna-button-blue.sna-button-gradient .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #18242b;
+}
+.sna-button-blue.sna-button-gradient .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #18242b;
+}
+.sna-button-blue.sna-button-gradient .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-blue.sna-button-gradient .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-blue.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-blue.sna-button-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-yellow {
+  background: #ffa324;
+  border: 1px solid #f08b00;
+  color: #ffffff;
+}
+.sna-button-yellow:hover {
+  background: #ff980a;
+  color: #ffffff;
+}
+.sna-button-yellow .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #f08b00;
+}
+.sna-button-yellow .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #f08b00;
+}
+.sna-button-yellow .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-yellow .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-yellow.sna-button-gradient {
+  background: #ffa324;
+  border: 1px solid #d67c00;
+  color: #ffffff;
+  background: -moz-linear-gradient(top, #ffae3e 0%, #f08b00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffae3e), color-stop(100%, #f08b00));
+  background: -webkit-linear-gradient(top, #ffae3e 0%, #f08b00 100%);
+  background: -o-linear-gradient(top, #ffae3e 0%, #f08b00 100%);
+  background: -ms-linear-gradient(top, #ffae3e 0%, #f08b00 100%);
+  background: linear-gradient(top, #ffae3e 0%, #f08b00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffae3e, endColorstr=#f08b00, GradientType=0);
+}
+.sna-button-yellow.sna-button-gradient:hover {
+  background: #f08b00;
+  color: #ffffff;
+  background: -moz-linear-gradient(top, #ffa324 0%, #ff980a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa324), color-stop(100%, #ff980a));
+  background: -webkit-linear-gradient(top, #ffa324 0%, #ff980a 100%);
+  background: -o-linear-gradient(top, #ffa324 0%, #ff980a 100%);
+  background: -ms-linear-gradient(top, #ffa324 0%, #ff980a 100%);
+  background: linear-gradient(top, #ffa324 0%, #ff980a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa324, endColorstr=#ff980a, GradientType=0);
+}
+.sna-button-yellow.sna-button-gradient .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #d67c00;
+}
+.sna-button-yellow.sna-button-gradient .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #d67c00;
+}
+.sna-button-yellow.sna-button-gradient .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-yellow.sna-button-gradient .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-yellow.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-yellow.sna-button-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-green {
+  background: #45b29d;
+  border: 1px solid #378d7d;
+  color: #ffffff;
+}
+.sna-button-green:hover {
+  background: #3ea08d;
+  color: #ffffff;
+}
+.sna-button-green .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #378d7d;
+}
+.sna-button-green .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #378d7d;
+}
+.sna-button-green .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-green .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-green.sna-button-gradient {
+  background: #45b29d;
+  border: 1px solid #307b6c;
+  color: #ffffff;
+  background: -moz-linear-gradient(top, #54bda8 0%, #378d7d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #54bda8), color-stop(100%, #378d7d));
+  background: -webkit-linear-gradient(top, #54bda8 0%, #378d7d 100%);
+  background: -o-linear-gradient(top, #54bda8 0%, #378d7d 100%);
+  background: -ms-linear-gradient(top, #54bda8 0%, #378d7d 100%);
+  background: linear-gradient(top, #54bda8 0%, #378d7d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#54bda8, endColorstr=#378d7d, GradientType=0);
+}
+.sna-button-green.sna-button-gradient:hover {
+  background: #378d7d;
+  color: #ffffff;
+  background: -moz-linear-gradient(top, #45b29d 0%, #3ea08d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45b29d), color-stop(100%, #3ea08d));
+  background: -webkit-linear-gradient(top, #45b29d 0%, #3ea08d 100%);
+  background: -o-linear-gradient(top, #45b29d 0%, #3ea08d 100%);
+  background: -ms-linear-gradient(top, #45b29d 0%, #3ea08d 100%);
+  background: linear-gradient(top, #45b29d 0%, #3ea08d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#45b29d, endColorstr=#3ea08d, GradientType=0);
+}
+.sna-button-green.sna-button-gradient .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #307b6c;
+}
+.sna-button-green.sna-button-gradient .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #307b6c;
+}
+.sna-button-green.sna-button-gradient .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-green.sna-button-gradient .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-green.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-green.sna-button-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-red {
+  background: #df5a49;
+  border: 1px solid #d03825;
+  color: #ffffff;
 }
 .sna-button-red:hover {
-  background: #cc0029;
+  background: #db4633;
   color: #ffffff;
-  background: -moz-linear-gradient(top, #fa0032 0%, #ff1919 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fa0032), color-stop(100%, #ff1919));
-  background: -webkit-linear-gradient(top, #fa0032 0%, #ff1919 100%);
-  background: -o-linear-gradient(top, #fa0032 0%, #ff1919 100%);
-  background: -ms-linear-gradient(top, #fa0032 0%, #ff1919 100%);
-  background: linear-gradient(top, #fa0032 0%, #ff1919 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fa0032, endColorstr=#ff1919, GradientType=0);
 }
 .sna-button-red .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #cc0000;
+  border-right: 1px solid #d03825;
 }
 .sna-button-red .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #cc0000;
+  border-left: 1px solid #d03825;
 }
 .sna-button-red .sna-button-cenleft {
   width: auto;
@@ -995,113 +1191,62 @@
   margin-right: 0;
   border: 0;
 }
-.sna-button-flatBlue {
-  background: #334d5c;
-  border: 1px solid #21323b;
-  color: #ffffff;
-}
-.sna-button-flatBlue:hover {
-  background: #2a3f4c;
-  color: #ffffff;
-}
-.sna-button-flatBlue .sna-button-left {
-  margin-left: -10px;
-  border-right: 1px solid #21323b;
-}
-.sna-button-flatBlue .sna-button-right {
-  margin-right: -10px;
-  border-left: 1px solid #21323b;
-}
-.sna-button-flatBlue .sna-button-cenleft {
-  width: auto;
-  margin-left: 0;
-  border: 0;
-}
-.sna-button-flatBlue .sna-button-cenright {
-  width: auto;
-  margin-right: 0;
-  border: 0;
-}
-.sna-button-flatYellow {
-  background: #ffa324;
-  border: 1px solid #f08b00;
-  color: #ffffff;
-}
-.sna-button-flatYellow:hover {
-  background: #ff980a;
-  color: #ffffff;
-}
-.sna-button-flatYellow .sna-button-left {
-  margin-left: -10px;
-  border-right: 1px solid #f08b00;
-}
-.sna-button-flatYellow .sna-button-right {
-  margin-right: -10px;
-  border-left: 1px solid #f08b00;
-}
-.sna-button-flatYellow .sna-button-cenleft {
-  width: auto;
-  margin-left: 0;
-  border: 0;
-}
-.sna-button-flatYellow .sna-button-cenright {
-  width: auto;
-  margin-right: 0;
-  border: 0;
-}
-.sna-button-flatGreen {
-  background: #45b29d;
-  border: 1px solid #378d7d;
-  color: #ffffff;
-}
-.sna-button-flatGreen:hover {
-  background: #3ea08d;
-  color: #ffffff;
-}
-.sna-button-flatGreen .sna-button-left {
-  margin-left: -10px;
-  border-right: 1px solid #378d7d;
-}
-.sna-button-flatGreen .sna-button-right {
-  margin-right: -10px;
-  border-left: 1px solid #378d7d;
-}
-.sna-button-flatGreen .sna-button-cenleft {
-  width: auto;
-  margin-left: 0;
-  border: 0;
-}
-.sna-button-flatGreen .sna-button-cenright {
-  width: auto;
-  margin-right: 0;
-  border: 0;
-}
-.sna-button-flatRed {
+.sna-button-red.sna-button-gradient {
   background: #df5a49;
-  border: 1px solid #d03825;
+  border: 1px solid #bb3221;
   color: #ffffff;
+  background: -moz-linear-gradient(top, #e36e5f 0%, #d03825 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e36e5f), color-stop(100%, #d03825));
+  background: -webkit-linear-gradient(top, #e36e5f 0%, #d03825 100%);
+  background: -o-linear-gradient(top, #e36e5f 0%, #d03825 100%);
+  background: -ms-linear-gradient(top, #e36e5f 0%, #d03825 100%);
+  background: linear-gradient(top, #e36e5f 0%, #d03825 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e36e5f, endColorstr=#d03825, GradientType=0);
 }
-.sna-button-flatRed:hover {
-  background: #db4633;
+.sna-button-red.sna-button-gradient:hover {
+  background: #d03825;
   color: #ffffff;
+  background: -moz-linear-gradient(top, #df5a49 0%, #db4633 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #df5a49), color-stop(100%, #db4633));
+  background: -webkit-linear-gradient(top, #df5a49 0%, #db4633 100%);
+  background: -o-linear-gradient(top, #df5a49 0%, #db4633 100%);
+  background: -ms-linear-gradient(top, #df5a49 0%, #db4633 100%);
+  background: linear-gradient(top, #df5a49 0%, #db4633 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df5a49, endColorstr=#db4633, GradientType=0);
 }
-.sna-button-flatRed .sna-button-left {
+.sna-button-red.sna-button-gradient .sna-button-left {
   margin-left: -10px;
-  border-right: 1px solid #d03825;
+  border-right: 1px solid #bb3221;
 }
-.sna-button-flatRed .sna-button-right {
+.sna-button-red.sna-button-gradient .sna-button-right {
   margin-right: -10px;
-  border-left: 1px solid #d03825;
+  border-left: 1px solid #bb3221;
 }
-.sna-button-flatRed .sna-button-cenleft {
+.sna-button-red.sna-button-gradient .sna-button-cenleft {
   width: auto;
   margin-left: 0;
   border: 0;
 }
-.sna-button-flatRed .sna-button-cenright {
+.sna-button-red.sna-button-gradient .sna-button-cenright {
   width: auto;
   margin-right: 0;
   border: 0;
+}
+.sna-button-red.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-red.sna-button-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 .sna-button-disable {
   cursor: default;
@@ -1131,22 +1276,63 @@
   margin-right: 0;
   border: 0;
 }
+.sna-button-disable.sna-button-gradient {
+  background: #f2f2f2;
+  border: 1px solid #cccccc;
+  color: #dadada;
+  background: -moz-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #d9d9d9));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+  background: linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#d9d9d9, GradientType=0);
+}
+.sna-button-disable.sna-button-gradient:hover {
+  background: #d9d9d9;
+  color: #dadada;
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #e5e5e5));
+  background: -webkit-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
+  background: -o-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
+  background: -ms-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
+  background: linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#e5e5e5, GradientType=0);
+}
+.sna-button-disable.sna-button-gradient .sna-button-left {
+  margin-left: -10px;
+  border-right: 1px solid #cccccc;
+}
+.sna-button-disable.sna-button-gradient .sna-button-right {
+  margin-right: -10px;
+  border-left: 1px solid #cccccc;
+}
+.sna-button-disable.sna-button-gradient .sna-button-cenleft {
+  width: auto;
+  margin-left: 0;
+  border: 0;
+}
+.sna-button-disable.sna-button-gradient .sna-button-cenright {
+  width: auto;
+  margin-right: 0;
+  border: 0;
+}
+.sna-button-disable.sna-button-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.sna-button-disable.sna-button-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
 .sna-button-disable:hover {
   background: #f2f2f2;
-}
-.sna-button-grayscale {
-  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-  filter: gray;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-}
-.sna-button-grayscale:hover {
-  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-  filter: gray;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
 }

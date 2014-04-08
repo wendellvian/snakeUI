@@ -3,37 +3,8 @@
 *******************************/
 // 按扭色模块
 #mod-buttonColor{
-
-    // @BeginColor->渐变开始颜色
-    // @EndColor->渐变结末颜色
-    // @FontColor->字体颜色
-    // a~z：FF3.6+ > Chrome,Safari4+ > Chrome10+,Safari5.1+ > Opera 11.10+ > IE10+ > W3C > IE6-9
-
-    .mod-button-gradientColor(@BeginColor,@EndColor,@FontColor){
-        background:@BeginColor;border:1px solid darken(@EndColor,20%);
-        color:@FontColor;
-        background:-moz-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
-        background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,@BeginColor),color-stop(100%,@EndColor));
-        background:-webkit-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
-        background:-o-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
-        background:-ms-linear-gradient(top,@BeginColor 0%,@EndColor 100%);
-        background:linear-gradient(top,@BeginColor 0%,@EndColor 100%);
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=@BeginColor,endColorstr=@EndColor,GradientType=0 );
-        &:hover{
-            background:darken(@BeginColor,10%);
-            color:@FontColor;
-            background:-moz-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
-            background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,darken(@BeginColor,1%)),color-stop(100%,darken(@EndColor,5%)));
-            background:-webkit-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
-            background:-o-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
-            background:-ms-linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
-            background:linear-gradient(top,darken(@BeginColor,1%) 0%,darken(@EndColor,5%) 100%);
-            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=darken(@BeginColor,1%),endColorstr=darken(@EndColor,5%),GradientType=0 );
-        }
-        #mod-buttonIco > .mod-buttonIc-posi(darken(@EndColor,20%));
-    }
     // 扁平色
-    .mod-button-flatColor(@BgColor,@FontColor){
+    .mod-button-color(@BgColor,@FontColor){
         background:@BgColor;border:1px solid darken(@BgColor,10%);
         color:@FontColor;
         &:hover{
@@ -41,20 +12,13 @@
             color:@FontColor;
         }
         #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,10%));
-    }
-    //  去色
-    .mod-button-grays(){
-        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-        filter:gray;
-        -webkit-filter:grayscale(100%);
-        -moz-filter:grayscale(100%);
-        -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-    }
-    .mod-button-grayscale(){
-        .mod-button-grays;
-        &:hover{
-            .mod-button-grays;
+        //  渐变状态
+        &.sna-button-gradient{
+            #mod-css3-effect > .css3-gradientColor(@BgColor,@FontColor);
+        }
+        //  去色状态
+        &.sna-button-grayscale{
+            #mod-css3-effect > .css3-grayscale;
         }
     }
 }
@@ -65,7 +29,7 @@
     .mod-button-ic(@Size:32px){
         display:inline-block;
         width:@Size;height:@Size;
-        margin:-2px 10px 0 10px;_margin-top:-3px;
+        margin:0 10px;
         line-height:@Size;text-align:center;overflow:hidden;vertical-align:middle;
         #mod-icons > .mod-icon-family;
         &:before{display:block;text-align:center;}

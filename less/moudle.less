@@ -11,10 +11,9 @@
 
 // Load-import
 @import "button.less";
-@import "css3effects.less";
 @import "icon.less";
+@import "css3effects.less";
 // -----------------------------------
-
 
 /* =按扭组------- */
     // 基础按扭
@@ -29,7 +28,7 @@
     // 带小图标按扭
     .sna-button-icon{
         display:inline-block;
-        padding:2px 10px 0 10px;
+        padding:0 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
             text-decoration:none;
@@ -39,42 +38,29 @@
         }
         #mod-icons > .mod-icon-list;
     }
-    // 灰色系
-    .sna-button-gray{
-        #mod-buttonColor > .mod-button-gradientColor(#ffffff,#efefef,#333);
-    }
-    // 红色系
-    .sna-button-red{
-        #mod-buttonColor > .mod-button-gradientColor(#f03,#f33,#fff);
-        // background:#f44242;
-    }
     // 扁平蓝色系
-    .sna-button-flatBlue{
-        #mod-buttonColor > .mod-button-flatColor(#334D5C,#fff);
+    .sna-button-blue{
+        #mod-buttonColor > .mod-button-color(#334D5C,#fff);
     }
     // 扁平黄色系
-    .sna-button-flatYellow{
-        #mod-buttonColor > .mod-button-flatColor(#ffa324,#fff);
+    .sna-button-yellow{
+        #mod-buttonColor > .mod-button-color(#ffa324,#fff);
     }
     // 扁平绿色系
-    .sna-button-flatGreen{
-        #mod-buttonColor > .mod-button-flatColor(#45B29D,#fff);
+    .sna-button-green{
+        #mod-buttonColor > .mod-button-color(#45B29D,#fff);
     }
     // 扁平红色系
-    .sna-button-flatRed{
-        #mod-buttonColor > .mod-button-flatColor(#DF5A49,#fff);
+    .sna-button-red{
+        #mod-buttonColor > .mod-button-color(#DF5A49,#fff);
     }
     // 不可点状态
     .sna-button-disable{
         cursor:default;
-        #mod-buttonColor > .mod-button-flatColor(#f2f2f2,#dadada);
+        #mod-buttonColor > .mod-button-color(#f2f2f2,#dadada);
         &:hover{
             background:#f2f2f2;
         }
-    }
-    //  置灰状态
-    .sna-button-grayscale{
-        #mod-buttonColor > .mod-button-grayscale;
     }
     
 
