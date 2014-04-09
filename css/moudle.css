@@ -33,20 +33,12 @@
 .s-btn:hover {
   text-decoration: none;
 }
-.s-btn-icon {
-  display: inline-block;
-  padding: 0 10px;
-  text-align: center;
-  font-size: 14px;
-  text-decoration: none;
-}
-.s-btn-icon:hover {
-  text-decoration: none;
-}
-.s-btn-icon .s-btn-ic {
+.s-btn .s-btn-ic {
   display: inline-block;
   width: 32px;
   height: 32px;
+  margin-top: -5px;
+  margin-bottom: -5px;
   line-height: 32px;
   text-align: center;
   overflow: hidden;
@@ -58,857 +50,857 @@
   font-variant: normal;
   text-transform: none;
 }
-.s-btn-icon .s-btn-ic:before {
+.s-btn .s-btn-ic:before {
   display: block;
   text-align: center;
 }
-.s-btn-icon .s-ic-iphone:before {
+.s-btn .s-ic-iphone:before {
   content: "\e600";
 }
-.s-btn-icon .s-ic-mobile:before {
+.s-btn .s-ic-mobile:before {
   content: "\e601";
 }
-.s-btn-icon .s-ic-mouse:before {
+.s-btn .s-ic-mouse:before {
   content: "\e602";
 }
-.s-btn-icon .s-ic-directions:before {
+.s-btn .s-ic-directions:before {
   content: "\e603";
 }
-.s-btn-icon .s-ic-mail:before {
+.s-btn .s-ic-mail:before {
   content: "\e604";
 }
-.s-btn-icon .s-ic-paperplane:before {
+.s-btn .s-ic-paperplane:before {
   content: "\e605";
 }
-.s-btn-icon .s-ic-pencil:before {
+.s-btn .s-ic-pencil:before {
   content: "\e606";
 }
-.s-btn-icon .s-ic-feather:before {
+.s-btn .s-ic-feather:before {
   content: "\e607";
 }
-.s-btn-icon .s-ic-paperclip:before {
+.s-btn .s-ic-paperclip:before {
   content: "\e608";
 }
-.s-btn-icon .s-ic-drawer:before {
+.s-btn .s-ic-drawer:before {
   content: "\e609";
 }
-.s-btn-icon .s-ic-reply:before {
+.s-btn .s-ic-reply:before {
   content: "\e60a";
 }
-.s-btn-icon .s-ic-reply-all:before {
+.s-btn .s-ic-reply-all:before {
   content: "\e60b";
 }
-.s-btn-icon .s-ic-user:before {
+.s-btn .s-ic-user:before {
   content: "\e60c";
 }
-.s-btn-icon .s-ic-users:before {
+.s-btn .s-ic-users:before {
   content: "\e60d";
 }
-.s-btn-icon .s-ic-user-add:before {
+.s-btn .s-ic-user-add:before {
   content: "\e60e";
 }
-.s-btn-icon .s-ic-vcard:before {
+.s-btn .s-ic-vcard:before {
   content: "\e60f";
 }
-.s-btn-icon .s-ic-export:before {
+.s-btn .s-ic-export:before {
   content: "\e610";
 }
-.s-btn-icon .s-ic-location:before {
+.s-btn .s-ic-location:before {
   content: "\e611";
 }
-.s-btn-icon .s-ic-map:before {
+.s-btn .s-ic-map:before {
   content: "\e612";
 }
-.s-btn-icon .s-ic-compass:before {
+.s-btn .s-ic-compass:before {
   content: "\e613";
 }
-.s-btn-icon .s-ic-location2:before {
+.s-btn .s-ic-location2:before {
   content: "\e614";
 }
-.s-btn-icon .s-ic-target:before {
+.s-btn .s-ic-target:before {
   content: "\e615";
 }
-.s-btn-icon .s-ic-share:before {
+.s-btn .s-ic-share:before {
   content: "\e616";
 }
-.s-btn-icon .s-ic-sharable:before {
+.s-btn .s-ic-sharable:before {
   content: "\e617";
 }
-.s-btn-icon .s-ic-heart:before {
+.s-btn .s-ic-heart:before {
   content: "\e618";
 }
-.s-btn-icon .s-ic-heart2:before {
+.s-btn .s-ic-heart2:before {
   content: "\e619";
 }
-.s-btn-icon .s-ic-star:before {
+.s-btn .s-ic-star:before {
   content: "\e61a";
 }
-.s-btn-icon .s-ic-star2:before {
+.s-btn .s-ic-star2:before {
   content: "\e61b";
 }
-.s-btn-icon .s-ic-thumbs-up:before {
+.s-btn .s-ic-thumbs-up:before {
   content: "\e61c";
 }
-.s-btn-icon .s-ic-thumbs-down:before {
+.s-btn .s-ic-thumbs-down:before {
   content: "\e61d";
 }
-.s-btn-icon .s-ic-chat:before {
+.s-btn .s-ic-chat:before {
   content: "\e61e";
 }
-.s-btn-icon .s-ic-comment:before {
+.s-btn .s-ic-comment:before {
   content: "\e61f";
 }
-.s-btn-icon .s-ic-quote:before {
+.s-btn .s-ic-quote:before {
   content: "\e620";
 }
-.s-btn-icon .s-ic-house:before {
+.s-btn .s-ic-house:before {
   content: "\e621";
 }
-.s-btn-icon .s-ic-popup:before {
+.s-btn .s-ic-popup:before {
   content: "\e622";
 }
-.s-btn-icon .s-ic-search:before {
+.s-btn .s-ic-search:before {
   content: "\e623";
 }
-.s-btn-icon .s-ic-flashlight:before {
+.s-btn .s-ic-flashlight:before {
   content: "\e624";
 }
-.s-btn-icon .s-ic-printer:before {
+.s-btn .s-ic-printer:before {
   content: "\e625";
 }
-.s-btn-icon .s-ic-bell:before {
+.s-btn .s-ic-bell:before {
   content: "\e626";
 }
-.s-btn-icon .s-ic-link:before {
+.s-btn .s-ic-link:before {
   content: "\e627";
 }
-.s-btn-icon .s-ic-flag:before {
+.s-btn .s-ic-flag:before {
   content: "\e628";
 }
-.s-btn-icon .s-ic-cog:before {
+.s-btn .s-ic-cog:before {
   content: "\e629";
 }
-.s-btn-icon .s-ic-tools:before {
+.s-btn .s-ic-tools:before {
   content: "\e62a";
 }
-.s-btn-icon .s-ic-trophy:before {
+.s-btn .s-ic-trophy:before {
   content: "\e62b";
 }
-.s-btn-icon .s-ic-tag:before {
+.s-btn .s-ic-tag:before {
   content: "\e62c";
 }
-.s-btn-icon .s-ic-megaphone:before {
+.s-btn .s-ic-megaphone:before {
   content: "\e62e";
 }
-.s-btn-icon .s-ic-moon:before {
+.s-btn .s-ic-moon:before {
   content: "\e62f";
 }
-.s-btn-icon .s-ic-palette:before {
+.s-btn .s-ic-palette:before {
   content: "\e630";
 }
-.s-btn-icon .s-ic-leaf:before {
+.s-btn .s-ic-leaf:before {
   content: "\e631";
 }
-.s-btn-icon .s-ic-music:before {
+.s-btn .s-ic-music:before {
   content: "\e632";
 }
-.s-btn-icon .s-ic-music2:before {
+.s-btn .s-ic-music2:before {
   content: "\e633";
 }
-.s-btn-icon .s-ic-new:before {
+.s-btn .s-ic-new:before {
   content: "\e634";
 }
-.s-btn-icon .s-ic-graduation:before {
+.s-btn .s-ic-graduation:before {
   content: "\e635";
 }
-.s-btn-icon .s-ic-book:before {
+.s-btn .s-ic-book:before {
   content: "\e636";
 }
-.s-btn-icon .s-ic-newspaper:before {
+.s-btn .s-ic-newspaper:before {
   content: "\e637";
 }
-.s-btn-icon .s-ic-bag:before {
+.s-btn .s-ic-bag:before {
   content: "\e638";
 }
-.s-btn-icon .s-ic-airplane:before {
+.s-btn .s-ic-airplane:before {
   content: "\e639";
 }
-.s-btn-icon .s-ic-lifebuoy:before {
+.s-btn .s-ic-lifebuoy:before {
   content: "\e63a";
 }
-.s-btn-icon .s-ic-eye:before {
+.s-btn .s-ic-eye:before {
   content: "\e63b";
 }
-.s-btn-icon .s-ic-clock:before {
+.s-btn .s-ic-clock:before {
   content: "\e63c";
 }
-.s-btn-icon .s-ic-microphone:before {
+.s-btn .s-ic-microphone:before {
   content: "\e63d";
 }
-.s-btn-icon .s-ic-calendar:before {
+.s-btn .s-ic-calendar:before {
   content: "\e63e";
 }
-.s-btn-icon .s-ic-bolt:before {
+.s-btn .s-ic-bolt:before {
   content: "\e63f";
 }
-.s-btn-icon .s-ic-thunder:before {
+.s-btn .s-ic-thunder:before {
   content: "\e640";
 }
-.s-btn-icon .s-ic-droplet:before {
+.s-btn .s-ic-droplet:before {
   content: "\e641";
 }
-.s-btn-icon .s-ic-cd:before {
+.s-btn .s-ic-cd:before {
   content: "\e642";
 }
-.s-btn-icon .s-ic-briefcase:before {
+.s-btn .s-ic-briefcase:before {
   content: "\e643";
 }
-.s-btn-icon .s-ic-air:before {
+.s-btn .s-ic-air:before {
   content: "\e644";
 }
-.s-btn-icon .s-ic-hourglass:before {
+.s-btn .s-ic-hourglass:before {
   content: "\e645";
 }
-.s-btn-icon .s-ic-gauge:before {
+.s-btn .s-ic-gauge:before {
   content: "\e646";
 }
-.s-btn-icon .s-ic-language:before {
+.s-btn .s-ic-language:before {
   content: "\e647";
 }
-.s-btn-icon .s-ic-network:before {
+.s-btn .s-ic-network:before {
   content: "\e648";
 }
-.s-btn-icon .s-ic-key:before {
+.s-btn .s-ic-key:before {
   content: "\e649";
 }
-.s-btn-icon .s-ic-battery:before {
+.s-btn .s-ic-battery:before {
   content: "\e64a";
 }
-.s-btn-icon .s-ic-bucket:before {
+.s-btn .s-ic-bucket:before {
   content: "\e64b";
 }
-.s-btn-icon .s-ic-magnet:before {
+.s-btn .s-ic-magnet:before {
   content: "\e64c";
 }
-.s-btn-icon .s-ic-drive:before {
+.s-btn .s-ic-drive:before {
   content: "\e64d";
 }
-.s-btn-icon .s-ic-cup:before {
+.s-btn .s-ic-cup:before {
   content: "\e64e";
 }
-.s-btn-icon .s-ic-rocket:before {
+.s-btn .s-ic-rocket:before {
   content: "\e64f";
 }
-.s-btn-icon .s-ic-brush:before {
+.s-btn .s-ic-brush:before {
   content: "\e650";
 }
-.s-btn-icon .s-ic-suitcase:before {
+.s-btn .s-ic-suitcase:before {
   content: "\e651";
 }
-.s-btn-icon .s-ic-cone:before {
+.s-btn .s-ic-cone:before {
   content: "\e652";
 }
-.s-btn-icon .s-ic-earth:before {
+.s-btn .s-ic-earth:before {
   content: "\e653";
 }
-.s-btn-icon .s-ic-keyboard:before {
+.s-btn .s-ic-keyboard:before {
   content: "\e654";
 }
-.s-btn-icon .s-ic-browser:before {
+.s-btn .s-ic-browser:before {
   content: "\e655";
 }
-.s-btn-icon .s-ic-publish:before {
+.s-btn .s-ic-publish:before {
   content: "\e656";
 }
-.s-btn-icon .s-ic-progress-3:before {
+.s-btn .s-ic-progress-3:before {
   content: "\e657";
 }
-.s-btn-icon .s-ic-progress-2:before {
+.s-btn .s-ic-progress-2:before {
   content: "\e658";
 }
-.s-btn-icon .s-ic-brogress-1:before {
+.s-btn .s-ic-brogress-1:before {
   content: "\e659";
 }
-.s-btn-icon .s-ic-progress-0:before {
+.s-btn .s-ic-progress-0:before {
   content: "\e65a";
 }
-.s-btn-icon .s-ic-sun:before {
+.s-btn .s-ic-sun:before {
   content: "\e65b";
 }
-.s-btn-icon .s-ic-sun2:before {
+.s-btn .s-ic-sun2:before {
   content: "\e65c";
 }
-.s-btn-icon .s-ic-adjust:before {
+.s-btn .s-ic-adjust:before {
   content: "\e65d";
 }
-.s-btn-icon .s-ic-code:before {
+.s-btn .s-ic-code:before {
   content: "\e65e";
 }
-.s-btn-icon .s-ic-screen:before {
+.s-btn .s-ic-screen:before {
   content: "\e65f";
 }
-.s-btn-icon .s-ic-infinity:before {
+.s-btn .s-ic-infinity:before {
   content: "\e660";
 }
-.s-btn-icon .s-ic-light-bulb:before {
+.s-btn .s-ic-light-bulb:before {
   content: "\e661";
 }
-.s-btn-icon .s-ic-credit-card:before {
+.s-btn .s-ic-credit-card:before {
   content: "\e662";
 }
-.s-btn-icon .s-ic-database:before {
+.s-btn .s-ic-database:before {
   content: "\e663";
 }
-.s-btn-icon .s-ic-voicemail:before {
+.s-btn .s-ic-voicemail:before {
   content: "\e664";
 }
-.s-btn-icon .s-ic-clipboard:before {
+.s-btn .s-ic-clipboard:before {
   content: "\e665";
 }
-.s-btn-icon .s-ic-cart:before {
+.s-btn .s-ic-cart:before {
   content: "\e666";
 }
-.s-btn-icon .s-ic-box:before {
+.s-btn .s-ic-box:before {
   content: "\e667";
 }
-.s-btn-icon .s-ic-ticket:before {
+.s-btn .s-ic-ticket:before {
   content: "\e668";
 }
-.s-btn-icon .s-ic-rss:before {
+.s-btn .s-ic-rss:before {
   content: "\e669";
 }
-.s-btn-icon .s-ic-signal:before {
+.s-btn .s-ic-signal:before {
   content: "\e66a";
 }
-.s-btn-icon .s-ic-thermometer:before {
+.s-btn .s-ic-thermometer:before {
   content: "\e66b";
 }
-.s-btn-icon .s-ic-droplets:before {
+.s-btn .s-ic-droplets:before {
   content: "\e66c";
 }
-.s-btn-icon .s-ic-uniE66D:before {
+.s-btn .s-ic-uniE66D:before {
   content: "\e66d";
 }
-.s-btn-icon .s-ic-statistics:before {
+.s-btn .s-ic-statistics:before {
   content: "\e66e";
 }
-.s-btn-icon .s-ic-pie:before {
+.s-btn .s-ic-pie:before {
   content: "\e66f";
 }
-.s-btn-icon .s-ic-bars:before {
+.s-btn .s-ic-bars:before {
   content: "\e670";
 }
-.s-btn-icon .s-ic-graph:before {
+.s-btn .s-ic-graph:before {
   content: "\e671";
 }
-.s-btn-icon .s-ic-lock:before {
+.s-btn .s-ic-lock:before {
   content: "\e672";
 }
-.s-btn-icon .s-ic-lock-open:before {
+.s-btn .s-ic-lock-open:before {
   content: "\e673";
 }
-.s-btn-icon .s-ic-logout:before {
+.s-btn .s-ic-logout:before {
   content: "\e674";
 }
-.s-btn-icon .s-ic-login:before {
+.s-btn .s-ic-login:before {
   content: "\e675";
 }
-.s-btn-icon .s-ic-checkmark:before {
+.s-btn .s-ic-checkmark:before {
   content: "\e676";
 }
-.s-btn-icon .s-ic-cross:before {
+.s-btn .s-ic-cross:before {
   content: "\e677";
 }
-.s-btn-icon .s-ic-minus:before {
+.s-btn .s-ic-minus:before {
   content: "\e678";
 }
-.s-btn-icon .s-ic-plus:before {
+.s-btn .s-ic-plus:before {
   content: "\e679";
 }
-.s-btn-icon .s-ic-cross2:before {
+.s-btn .s-ic-cross2:before {
   content: "\e67a";
 }
-.s-btn-icon .s-ic-minus2:before {
+.s-btn .s-ic-minus2:before {
   content: "\e67b";
 }
-.s-btn-icon .s-ic-plus2:before {
+.s-btn .s-ic-plus2:before {
   content: "\e67c";
 }
-.s-btn-icon .s-ic-cross3:before {
+.s-btn .s-ic-cross3:before {
   content: "\e67d";
 }
-.s-btn-icon .s-ic-minus3:before {
+.s-btn .s-ic-minus3:before {
   content: "\e67e";
 }
-.s-btn-icon .s-ic-plus3:before {
+.s-btn .s-ic-plus3:before {
   content: "\e67f";
 }
-.s-btn-icon .s-ic-erase:before {
+.s-btn .s-ic-erase:before {
   content: "\e680";
 }
-.s-btn-icon .s-ic-blocked:before {
+.s-btn .s-ic-blocked:before {
   content: "\e681";
 }
-.s-btn-icon .s-ic-info:before {
+.s-btn .s-ic-info:before {
   content: "\e682";
 }
-.s-btn-icon .s-ic-info2:before {
+.s-btn .s-ic-info2:before {
   content: "\e683";
 }
-.s-btn-icon .s-ic-question:before {
+.s-btn .s-ic-question:before {
   content: "\e684";
 }
-.s-btn-icon .s-ic-help:before {
+.s-btn .s-ic-help:before {
   content: "\e685";
 }
-.s-btn-icon .s-ic-warning:before {
+.s-btn .s-ic-warning:before {
   content: "\e686";
 }
-.s-btn-icon .s-ic-cycle:before {
+.s-btn .s-ic-cycle:before {
   content: "\e687";
 }
-.s-btn-icon .s-ic-cw:before {
+.s-btn .s-ic-cw:before {
   content: "\e688";
 }
-.s-btn-icon .s-ic-shuffle:before {
+.s-btn .s-ic-shuffle:before {
   content: "\e68a";
 }
-.s-btn-icon .s-ic-arrow:before {
+.s-btn .s-ic-arrow:before {
   content: "\e68b";
 }
-.s-btn-icon .s-ic-arrow2:before {
+.s-btn .s-ic-arrow2:before {
   content: "\e68c";
 }
-.s-btn-icon .s-ic-retweet:before {
+.s-btn .s-ic-retweet:before {
   content: "\e68d";
 }
-.s-btn-icon .s-ic-loop:before {
+.s-btn .s-ic-loop:before {
   content: "\e68e";
 }
-.s-btn-icon .s-ic-history:before {
+.s-btn .s-ic-history:before {
   content: "\e68f";
 }
-.s-btn-icon .s-ic-back:before {
+.s-btn .s-ic-back:before {
   content: "\e690";
 }
-.s-btn-icon .s-ic-switch:before {
+.s-btn .s-ic-switch:before {
   content: "\e691";
 }
-.s-btn-icon .s-ic-list:before {
+.s-btn .s-ic-list:before {
   content: "\e692";
 }
-.s-btn-icon .s-ic-add-to-list:before {
+.s-btn .s-ic-add-to-list:before {
   content: "\e693";
 }
-.s-btn-icon .s-ic-layout:before {
+.s-btn .s-ic-layout:before {
   content: "\e694";
 }
-.s-btn-icon .s-ic-list2:before {
+.s-btn .s-ic-list2:before {
   content: "\e695";
 }
-.s-btn-icon .s-ic-text:before {
+.s-btn .s-ic-text:before {
   content: "\e696";
 }
-.s-btn-icon .s-ic-text2:before {
+.s-btn .s-ic-text2:before {
   content: "\e697";
 }
-.s-btn-icon .s-ic-document:before {
+.s-btn .s-ic-document:before {
   content: "\e698";
 }
-.s-btn-icon .s-ic-docs:before {
+.s-btn .s-ic-docs:before {
   content: "\e699";
 }
-.s-btn-icon .s-ic-landscape:before {
+.s-btn .s-ic-landscape:before {
   content: "\e69a";
 }
-.s-btn-icon .s-ic-pictures:before {
+.s-btn .s-ic-pictures:before {
   content: "\e69b";
 }
-.s-btn-icon .s-ic-video:before {
+.s-btn .s-ic-video:before {
   content: "\e69c";
 }
-.s-btn-icon .s-ic-music3:before {
+.s-btn .s-ic-music3:before {
   content: "\e69d";
 }
-.s-btn-icon .s-ic-folder:before {
+.s-btn .s-ic-folder:before {
   content: "\e69e";
 }
-.s-btn-icon .s-ic-archive:before {
+.s-btn .s-ic-archive:before {
   content: "\e69f";
 }
-.s-btn-icon .s-ic-trash:before {
+.s-btn .s-ic-trash:before {
   content: "\e6a0";
 }
-.s-btn-icon .s-ic-upload:before {
+.s-btn .s-ic-upload:before {
   content: "\e6a1";
 }
-.s-btn-icon .s-ic-download:before {
+.s-btn .s-ic-download:before {
   content: "\e6a2";
 }
-.s-btn-icon .s-ic-disk:before {
+.s-btn .s-ic-disk:before {
   content: "\e6a3";
 }
-.s-btn-icon .s-ic-install:before {
+.s-btn .s-ic-install:before {
   content: "\e6a4";
 }
-.s-btn-icon .s-ic-cloud:before {
+.s-btn .s-ic-cloud:before {
   content: "\e6a5";
 }
-.s-btn-icon .s-ic-upload2:before {
+.s-btn .s-ic-upload2:before {
   content: "\e6a6";
 }
-.s-btn-icon .s-ic-bookmark:before {
+.s-btn .s-ic-bookmark:before {
   content: "\e6a7";
 }
-.s-btn-icon .s-ic-bookmarks:before {
+.s-btn .s-ic-bookmarks:before {
   content: "\e6a8";
 }
-.s-btn-icon .s-ic-book2:before {
+.s-btn .s-ic-book2:before {
   content: "\e6a9";
 }
-.s-btn-icon .s-ic-play:before {
+.s-btn .s-ic-play:before {
   content: "\e6aa";
 }
-.s-btn-icon .s-ic-pause:before {
+.s-btn .s-ic-pause:before {
   content: "\e6ab";
 }
-.s-btn-icon .s-ic-record:before {
+.s-btn .s-ic-record:before {
   content: "\e6ac";
 }
-.s-btn-icon .s-ic-stop:before {
+.s-btn .s-ic-stop:before {
   content: "\e6ad";
 }
-.s-btn-icon .s-ic-next:before {
+.s-btn .s-ic-next:before {
   content: "\e6ae";
 }
-.s-btn-icon .s-ic-previous:before {
+.s-btn .s-ic-previous:before {
   content: "\e6af";
 }
-.s-btn-icon .s-ic-first:before {
+.s-btn .s-ic-first:before {
   content: "\e6b0";
 }
-.s-btn-icon .s-ic-last:before {
+.s-btn .s-ic-last:before {
   content: "\e6b1";
 }
-.s-btn-icon .s-ic-resize-enlarge:before {
+.s-btn .s-ic-resize-enlarge:before {
   content: "\e6b2";
 }
-.s-btn-icon .s-ic-resize-shrink:before {
+.s-btn .s-ic-resize-shrink:before {
   content: "\e6b3";
 }
-.s-btn-icon .s-ic-volume:before {
+.s-btn .s-ic-volume:before {
   content: "\e6b4";
 }
-.s-btn-icon .s-ic-sound:before {
+.s-btn .s-ic-sound:before {
   content: "\e6b5";
 }
-.s-btn-icon .s-ic-mute:before {
+.s-btn .s-ic-mute:before {
   content: "\e6b6";
 }
-.s-btn-icon .s-ic-flow-cascade:before {
+.s-btn .s-ic-flow-cascade:before {
   content: "\e6b7";
 }
-.s-btn-icon .s-ic-flow-branch:before {
+.s-btn .s-ic-flow-branch:before {
   content: "\e6b8";
 }
-.s-btn-icon .s-ic-flow-tree:before {
+.s-btn .s-ic-flow-tree:before {
   content: "\e6b9";
 }
-.s-btn-icon .s-ic-flow-line:before {
+.s-btn .s-ic-flow-line:before {
   content: "\e6ba";
 }
-.s-btn-icon .s-ic-flow-parallel:before {
+.s-btn .s-ic-flow-parallel:before {
   content: "\e6bb";
 }
-.s-btn-icon .s-ic-arrow-left:before {
+.s-btn .s-ic-arrow-left:before {
   content: "\e6bc";
 }
-.s-btn-icon .s-ic-arrow-down:before {
+.s-btn .s-ic-arrow-down:before {
   content: "\e6bd";
 }
-.s-btn-icon .s-ic-arrow-up--upload:before {
+.s-btn .s-ic-arrow-up--upload:before {
   content: "\e6be";
 }
-.s-btn-icon .s-ic-arrow-right:before {
+.s-btn .s-ic-arrow-right:before {
   content: "\e6bf";
 }
-.s-btn-icon .s-ic-arrow-left2:before {
+.s-btn .s-ic-arrow-left2:before {
   content: "\e6c0";
 }
-.s-btn-icon .s-ic-arrow-down2:before {
+.s-btn .s-ic-arrow-down2:before {
   content: "\e6c1";
 }
-.s-btn-icon .s-ic-arrow-up:before {
+.s-btn .s-ic-arrow-up:before {
   content: "\e6c2";
 }
-.s-btn-icon .s-ic-arrow-right2:before {
+.s-btn .s-ic-arrow-right2:before {
   content: "\e6c3";
 }
-.s-btn-icon .s-ic-arrow-left3:before {
+.s-btn .s-ic-arrow-left3:before {
   content: "\e6c4";
 }
-.s-btn-icon .s-ic-arrow-down3:before {
+.s-btn .s-ic-arrow-down3:before {
   content: "\e6c5";
 }
-.s-btn-icon .s-ic-arrow-up2:before {
+.s-btn .s-ic-arrow-up2:before {
   content: "\e6c6";
 }
-.s-btn-icon .s-ic-arrow-right3:before {
+.s-btn .s-ic-arrow-right3:before {
   content: "\e6c7";
 }
-.s-btn-icon .s-ic-arrow-left4:before {
+.s-btn .s-ic-arrow-left4:before {
   content: "\e6c8";
 }
-.s-btn-icon .s-ic-arrow-down4:before {
+.s-btn .s-ic-arrow-down4:before {
   content: "\e6c9";
 }
-.s-btn-icon .s-ic-arrow-up3:before {
+.s-btn .s-ic-arrow-up3:before {
   content: "\e6ca";
 }
-.s-btn-icon .s-ic-arrow-right4:before {
+.s-btn .s-ic-arrow-right4:before {
   content: "\e6cb";
 }
-.s-btn-icon .s-ic-arrow-left5:before {
+.s-btn .s-ic-arrow-left5:before {
   content: "\e6cc";
 }
-.s-btn-icon .s-ic-arrow-down5:before {
+.s-btn .s-ic-arrow-down5:before {
   content: "\e6cd";
 }
-.s-btn-icon .s-ic-arrow-up4:before {
+.s-btn .s-ic-arrow-up4:before {
   content: "\e6ce";
 }
-.s-btn-icon .s-ic-arrow-right5:before {
+.s-btn .s-ic-arrow-right5:before {
   content: "\e6cf";
 }
-.s-btn-icon .s-ic-arrow-left6:before {
+.s-btn .s-ic-arrow-left6:before {
   content: "\e6d0";
 }
-.s-btn-icon .s-ic-arrow-down6:before {
+.s-btn .s-ic-arrow-down6:before {
   content: "\e6d1";
 }
-.s-btn-icon .s-ic-arrow-up5:before {
+.s-btn .s-ic-arrow-up5:before {
   content: "\e6d2";
 }
-.s-btn-icon .s-ic-arrow-right6:before {
+.s-btn .s-ic-arrow-right6:before {
   content: "\e6d3";
 }
-.s-btn-icon .s-ic-arrow-left7:before {
+.s-btn .s-ic-arrow-left7:before {
   content: "\e6d4";
 }
-.s-btn-icon .s-ic-arrow-down7:before {
+.s-btn .s-ic-arrow-down7:before {
   content: "\e6d5";
 }
-.s-btn-icon .s-ic-arrow-up6:before {
+.s-btn .s-ic-arrow-up6:before {
   content: "\e6d6";
 }
-.s-btn-icon .s-ic-uniE6D7:before {
+.s-btn .s-ic-uniE6D7:before {
   content: "\e6d7";
 }
-.s-btn-icon .s-ic-arrow-left8:before {
+.s-btn .s-ic-arrow-left8:before {
   content: "\e6d8";
 }
-.s-btn-icon .s-ic-arrow-down8:before {
+.s-btn .s-ic-arrow-down8:before {
   content: "\e6d9";
 }
-.s-btn-icon .s-ic-arrow-up7:before {
+.s-btn .s-ic-arrow-up7:before {
   content: "\e6da";
 }
-.s-btn-icon .s-ic-arrow-right7:before {
+.s-btn .s-ic-arrow-right7:before {
   content: "\e6db";
 }
-.s-btn-icon .s-ic-menu:before {
+.s-btn .s-ic-menu:before {
   content: "\e6dc";
 }
-.s-btn-icon .s-ic-ellipsis:before {
+.s-btn .s-ic-ellipsis:before {
   content: "\e6dd";
 }
-.s-btn-icon .s-ic-dots:before {
+.s-btn .s-ic-dots:before {
   content: "\e6de";
 }
-.s-btn-icon .s-ic-dot:before {
+.s-btn .s-ic-dot:before {
   content: "\e6df";
 }
-.s-btn-icon .s-ic-cc:before {
+.s-btn .s-ic-cc:before {
   content: "\e6e0";
 }
-.s-btn-icon .s-ic-cc-by:before {
+.s-btn .s-ic-cc-by:before {
   content: "\e6e1";
 }
-.s-btn-icon .s-ic-cc-nc:before {
+.s-btn .s-ic-cc-nc:before {
   content: "\e6e2";
 }
-.s-btn-icon .s-ic-cc-nc-eu:before {
+.s-btn .s-ic-cc-nc-eu:before {
   content: "\e6e3";
 }
-.s-btn-icon .s-ic-cc-nc-jp:before {
+.s-btn .s-ic-cc-nc-jp:before {
   content: "\e6e4";
 }
-.s-btn-icon .s-ic-cc-sa:before {
+.s-btn .s-ic-cc-sa:before {
   content: "\e6e5";
 }
-.s-btn-icon .s-ic-cc-nd:before {
+.s-btn .s-ic-cc-nd:before {
   content: "\e6e6";
 }
-.s-btn-icon .s-ic-cc-pd:before {
+.s-btn .s-ic-cc-pd:before {
   content: "\e6e7";
 }
-.s-btn-icon .s-ic-cc-zero:before {
+.s-btn .s-ic-cc-zero:before {
   content: "\e6e8";
 }
-.s-btn-icon .s-ic-cc-share:before {
+.s-btn .s-ic-cc-share:before {
   content: "\e6e9";
 }
-.s-btn-icon .s-ic-cc-share2:before {
+.s-btn .s-ic-cc-share2:before {
   content: "\e6ea";
 }
-.s-btn-icon .s-ic-daniel-bruce:before {
+.s-btn .s-ic-daniel-bruce:before {
   content: "\e6eb";
 }
-.s-btn-icon .s-ic-daniel-bruce2:before {
+.s-btn .s-ic-daniel-bruce2:before {
   content: "\e6ec";
 }
-.s-btn-icon .s-ic-github:before {
+.s-btn .s-ic-github:before {
   content: "\e6ed";
 }
-.s-btn-icon .s-ic-github2:before {
+.s-btn .s-ic-github2:before {
   content: "\e6ee";
 }
-.s-btn-icon .s-ic-flickr:before {
+.s-btn .s-ic-flickr:before {
   content: "\e6ef";
 }
-.s-btn-icon .s-ic-flickr2:before {
+.s-btn .s-ic-flickr2:before {
   content: "\e6f0";
 }
-.s-btn-icon .s-ic-vimeo:before {
+.s-btn .s-ic-vimeo:before {
   content: "\e6f1";
 }
-.s-btn-icon .s-ic-vimeo2:before {
+.s-btn .s-ic-vimeo2:before {
   content: "\e6f2";
 }
-.s-btn-icon .s-ic-twitter:before {
+.s-btn .s-ic-twitter:before {
   content: "\e6f3";
 }
-.s-btn-icon .s-ic-twitter2:before {
+.s-btn .s-ic-twitter2:before {
   content: "\e6f4";
 }
-.s-btn-icon .s-ic-facebook:before {
+.s-btn .s-ic-facebook:before {
   content: "\e6f5";
 }
-.s-btn-icon .s-ic-facebook2:before {
+.s-btn .s-ic-facebook2:before {
   content: "\e6f6";
 }
-.s-btn-icon .s-ic-facebook3:before {
+.s-btn .s-ic-facebook3:before {
   content: "\e6f7";
 }
-.s-btn-icon .s-ic-googleplus:before {
+.s-btn .s-ic-googleplus:before {
   content: "\e6f8";
 }
-.s-btn-icon .s-ic-googleplus2:before {
+.s-btn .s-ic-googleplus2:before {
   content: "\e6f9";
 }
-.s-btn-icon .s-ic-pinterest:before {
+.s-btn .s-ic-pinterest:before {
   content: "\e6fa";
 }
-.s-btn-icon .s-ic-pinterest2:before {
+.s-btn .s-ic-pinterest2:before {
   content: "\e6fb";
 }
-.s-btn-icon .s-ic-tumblr:before {
+.s-btn .s-ic-tumblr:before {
   content: "\e6fc";
 }
-.s-btn-icon .s-ic-tumblr2:before {
+.s-btn .s-ic-tumblr2:before {
   content: "\e6fd";
 }
-.s-btn-icon .s-ic-linkedin:before {
+.s-btn .s-ic-linkedin:before {
   content: "\e6fe";
 }
-.s-btn-icon .s-ic-linkedin2:before {
+.s-btn .s-ic-linkedin2:before {
   content: "\e6ff";
 }
-.s-btn-icon .s-ic-dribbble:before {
+.s-btn .s-ic-dribbble:before {
   content: "\e700";
 }
-.s-btn-icon .s-ic-dribbble2:before {
+.s-btn .s-ic-dribbble2:before {
   content: "\e701";
 }
-.s-btn-icon .s-ic-stumbleupon:before {
+.s-btn .s-ic-stumbleupon:before {
   content: "\e702";
 }
-.s-btn-icon .s-ic-stumbleupon2:before {
+.s-btn .s-ic-stumbleupon2:before {
   content: "\e703";
 }
-.s-btn-icon .s-ic-lastfm:before {
+.s-btn .s-ic-lastfm:before {
   content: "\e704";
 }
-.s-btn-icon .s-ic-lastfm2:before {
+.s-btn .s-ic-lastfm2:before {
   content: "\e705";
 }
-.s-btn-icon .s-ic-rdio:before {
+.s-btn .s-ic-rdio:before {
   content: "\e706";
 }
-.s-btn-icon .s-ic-rdio2:before {
+.s-btn .s-ic-rdio2:before {
   content: "\e707";
 }
-.s-btn-icon .s-ic-spotify:before {
+.s-btn .s-ic-spotify:before {
   content: "\e708";
 }
-.s-btn-icon .s-ic-spotify2:before {
+.s-btn .s-ic-spotify2:before {
   content: "\e709";
 }
-.s-btn-icon .s-ic-qq:before {
+.s-btn .s-ic-qq:before {
   content: "\e70a";
 }
-.s-btn-icon .s-ic-instagram:before {
+.s-btn .s-ic-instagram:before {
   content: "\e70b";
 }
-.s-btn-icon .s-ic-dropbox:before {
+.s-btn .s-ic-dropbox:before {
   content: "\e70c";
 }
-.s-btn-icon .s-ic-evernote:before {
+.s-btn .s-ic-evernote:before {
   content: "\e70d";
 }
-.s-btn-icon .s-ic-flattr:before {
+.s-btn .s-ic-flattr:before {
   content: "\e70e";
 }
-.s-btn-icon .s-ic-skype:before {
+.s-btn .s-ic-skype:before {
   content: "\e70f";
 }
-.s-btn-icon .s-ic-skype2:before {
+.s-btn .s-ic-skype2:before {
   content: "\e710";
 }
-.s-btn-icon .s-ic-renren:before {
+.s-btn .s-ic-renren:before {
   content: "\e711";
 }
-.s-btn-icon .s-ic-sina-weibo:before {
+.s-btn .s-ic-sina-weibo:before {
   content: "\e712";
 }
-.s-btn-icon .s-ic-paypal:before {
+.s-btn .s-ic-paypal:before {
   content: "\e713";
 }
-.s-btn-icon .s-ic-picasa:before {
+.s-btn .s-ic-picasa:before {
   content: "\e714";
 }
-.s-btn-icon .s-ic-soundcloud:before {
+.s-btn .s-ic-soundcloud:before {
   content: "\e715";
 }
-.s-btn-icon .s-ic-mixi:before {
+.s-btn .s-ic-mixi:before {
   content: "\e716";
 }
-.s-btn-icon .s-ic-behance:before {
+.s-btn .s-ic-behance:before {
   content: "\e717";
 }
-.s-btn-icon .s-ic-circles:before {
+.s-btn .s-ic-circles:before {
   content: "\e718";
 }
-.s-btn-icon .s-ic-vk:before {
+.s-btn .s-ic-vk:before {
   content: "\e719";
 }
-.s-btn-icon .s-ic-smashing:before {
+.s-btn .s-ic-smashing:before {
   content: "\e71a";
 }
-.s-btn-icon .s-ic-forward:before {
+.s-btn .s-ic-forward:before {
   content: "\e71b";
 }
-.s-btn-icon .s-ic-ccw:before {
+.s-btn .s-ic-ccw:before {
   content: "\e689";
 }
 .s-btn-default {
@@ -921,11 +913,13 @@
   color: #ffffff;
 }
 .s-btn-default .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #21323b;
 }
 .s-btn-default .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #21323b;
 }
 .s-btn-default .s-btn-cenleft {
@@ -937,7 +931,8 @@
   margin-left: 10px;
 }
 .s-btn-default .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-default.s-gradient {
   background: #334d5c;
@@ -963,11 +958,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#334d5c, endColorstr=#2a3f4c, GradientType=0);
 }
 .s-btn-default.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #18242b;
 }
 .s-btn-default.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #18242b;
 }
 .s-btn-default.s-gradient .s-btn-cenleft {
@@ -979,7 +976,8 @@
   margin-left: 10px;
 }
 .s-btn-default.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-default.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1031,11 +1029,13 @@
   color: #ffffff;
 }
 .s-btn-blue .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #217dbb;
 }
 .s-btn-blue .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #217dbb;
 }
 .s-btn-blue .s-btn-cenleft {
@@ -1047,7 +1047,8 @@
   margin-left: 10px;
 }
 .s-btn-blue .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-blue.s-gradient {
   background: #3498db;
@@ -1073,11 +1074,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3498db, endColorstr=#258cd1, GradientType=0);
 }
 .s-btn-blue.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #1d6fa5;
 }
 .s-btn-blue.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #1d6fa5;
 }
 .s-btn-blue.s-gradient .s-btn-cenleft {
@@ -1089,7 +1092,8 @@
   margin-left: 10px;
 }
 .s-btn-blue.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-blue.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1141,11 +1145,13 @@
   color: #ffffff;
 }
 .s-btn-yellow .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #f08b00;
 }
 .s-btn-yellow .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #f08b00;
 }
 .s-btn-yellow .s-btn-cenleft {
@@ -1157,7 +1163,8 @@
   margin-left: 10px;
 }
 .s-btn-yellow .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-yellow.s-gradient {
   background: #ffa324;
@@ -1183,11 +1190,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa324, endColorstr=#ff980a, GradientType=0);
 }
 .s-btn-yellow.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #d67c00;
 }
 .s-btn-yellow.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #d67c00;
 }
 .s-btn-yellow.s-gradient .s-btn-cenleft {
@@ -1199,7 +1208,8 @@
   margin-left: 10px;
 }
 .s-btn-yellow.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-yellow.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1251,11 +1261,13 @@
   color: #ffffff;
 }
 .s-btn-green .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #378d7d;
 }
 .s-btn-green .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #378d7d;
 }
 .s-btn-green .s-btn-cenleft {
@@ -1267,7 +1279,8 @@
   margin-left: 10px;
 }
 .s-btn-green .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-green.s-gradient {
   background: #45b29d;
@@ -1293,11 +1306,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#45b29d, endColorstr=#3ea08d, GradientType=0);
 }
 .s-btn-green.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #307b6c;
 }
 .s-btn-green.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #307b6c;
 }
 .s-btn-green.s-gradient .s-btn-cenleft {
@@ -1309,7 +1324,8 @@
   margin-left: 10px;
 }
 .s-btn-green.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-green.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1361,11 +1377,13 @@
   color: #ffffff;
 }
 .s-btn-red .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #d03825;
 }
 .s-btn-red .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #d03825;
 }
 .s-btn-red .s-btn-cenleft {
@@ -1377,7 +1395,8 @@
   margin-left: 10px;
 }
 .s-btn-red .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-red.s-gradient {
   background: #df5a49;
@@ -1403,11 +1422,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df5a49, endColorstr=#db4633, GradientType=0);
 }
 .s-btn-red.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #bb3221;
 }
 .s-btn-red.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #bb3221;
 }
 .s-btn-red.s-gradient .s-btn-cenleft {
@@ -1419,7 +1440,8 @@
   margin-left: 10px;
 }
 .s-btn-red.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-red.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -1472,11 +1494,13 @@
   color: #dadada;
 }
 .s-btn-disable .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #d9d9d9;
 }
 .s-btn-disable .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #d9d9d9;
 }
 .s-btn-disable .s-btn-cenleft {
@@ -1488,7 +1512,8 @@
   margin-left: 10px;
 }
 .s-btn-disable .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-disable.s-gradient {
   background: #f2f2f2;
@@ -1514,11 +1539,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#e5e5e5, GradientType=0);
 }
 .s-btn-disable.s-gradient .s-btn-left {
-  margin: 0 10px 0 -10px;
+  margin-left: -10px;
+  margin-right: 10px;
   border-right: 1px solid #cccccc;
 }
 .s-btn-disable.s-gradient .s-btn-right {
-  margin: 0 -10px 0 10px;
+  margin-left: 10px;
+  margin-right: -10px;
   border-left: 1px solid #cccccc;
 }
 .s-btn-disable.s-gradient .s-btn-cenleft {
@@ -1530,7 +1557,8 @@
   margin-left: 10px;
 }
 .s-btn-disable.s-gradient .s-btn-cen {
-  margin: 0 -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .s-btn-disable.s-grayscale {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");

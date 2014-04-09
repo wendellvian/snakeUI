@@ -18,23 +18,15 @@
 /* =按扭组------- */
     // 基础按扭
     .s-btn{
+        @Size:32px;
         display:inline-block;
         padding:5px 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
             text-decoration:none;
         }
-    }
-    // 带小图标按扭
-    .s-btn-icon{
-        display:inline-block;
-        padding:0 10px;
-        text-align:center;font-size:14px;text-decoration:none;
-        &:hover{
-            text-decoration:none;
-        }
         .s-btn-ic{
-            #mod-buttonIco > .mod-btn-ic;
+            #mod-buttonIco > .mod-btn-ic(@Size);
         }
         #mod-icons > .mod-ic-list;
     }
