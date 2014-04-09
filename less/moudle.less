@@ -5,7 +5,7 @@
  * 
  *	@author        : Wendell
  *	@version       : v1.0
- *  @description   : 定制前缀 sna-
+ *  @description   : 定制前缀 s-
  */
 /* @end **/
 
@@ -17,7 +17,7 @@
 
 /* =按扭组------- */
     // 基础按扭
-    .sna-button{
+    .s-btn{
         display:inline-block;
         padding:5px 10px;
         text-align:center;font-size:14px;text-decoration:none;
@@ -26,38 +26,42 @@
         }
     }
     // 带小图标按扭
-    .sna-button-icon{
+    .s-btn-icon{
         display:inline-block;
         padding:0 10px;
         text-align:center;font-size:14px;text-decoration:none;
         &:hover{
             text-decoration:none;
         }
-        .sna-button-ic{
-            #mod-buttonIco > .mod-button-ic;
+        .s-btn-ic{
+            #mod-buttonIco > .mod-btn-ic;
         }
-        #mod-icons > .mod-icon-list;
+        #mod-icons > .mod-ic-list;
+    }
+    // 扁平默认色
+    .s-btn-default{
+        #mod-buttonColor > .mod-btn-color(#334D5C,#fff);
     }
     // 扁平蓝色系
-    .sna-button-blue{
-        #mod-buttonColor > .mod-button-color(#334D5C,#fff);
+    .s-btn-blue{
+        #mod-buttonColor > .mod-btn-color(#3498db,#fff);
     }
     // 扁平黄色系
-    .sna-button-yellow{
-        #mod-buttonColor > .mod-button-color(#ffa324,#fff);
+    .s-btn-yellow{
+        #mod-buttonColor > .mod-btn-color(#ffa324,#fff);
     }
     // 扁平绿色系
-    .sna-button-green{
-        #mod-buttonColor > .mod-button-color(#45B29D,#fff);
+    .s-btn-green{
+        #mod-buttonColor > .mod-btn-color(#45B29D,#fff);
     }
     // 扁平红色系
-    .sna-button-red{
-        #mod-buttonColor > .mod-button-color(#DF5A49,#fff);
+    .s-btn-red{
+        #mod-buttonColor > .mod-btn-color(#DF5A49,#fff);
     }
     // 不可点状态
-    .sna-button-disable{
+    .s-btn-disable{
         cursor:default;
-        #mod-buttonColor > .mod-button-color(#f2f2f2,#dadada);
+        #mod-buttonColor > .mod-btn-color(#f2f2f2,#dadada);
         &:hover{
             background:#f2f2f2;
         }

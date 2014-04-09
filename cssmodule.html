@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="css/moudle.css" type="text/css">
 	<style>
 		body{padding:60px;font-family:"\5FAE\8F6F\96C5\9ED1"}
-		.button-group{padding:0 10px;border-left:1px dotted #ddd;}
-		.button-group a{margin-right:10px;vertical-align:middle;}
+		.btn-group{padding:0 10px;border-left:1px dotted #ddd;}
+		.btn-group a{margin-right:10px;vertical-align:middle;}
 		.title-h1{display:inline-block;margin-left:-20px;padding:0 10px;background:#333;color:#fff;font-size:40px;}
 		.title-h2{display:inline-block;margin-left:-20px;padding:0 10px;background:#333;color:#fff;font-size:30px;}
 		.title-h2-h3{margin:10px 0 10px -10px;padding:5px;background:#eee;border-left:5px solid #ccc;font-size:20px;}
@@ -16,55 +16,83 @@
 	</style>
 </head>
 <body>
-	<h1 class="title-h1">Snake UI</h1>
-	<div class="button-group">
+	<h1 class="title-h1">snake UI</h1>
+	<div class="btn-group">
 		<h2 class="title-h2">按扭组</h2>
 		<h3 class="title-h3">常规扁平按扭</h3>
-			<a href="javascript:;" class="sna-button sna-button-blue">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-yellow">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-green">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-red">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-default">snake default button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue">snake blue button</a>
+			<a href="javascript:;" class="s-btn s-btn-yellow">snake yellow button</a>
+			<a href="javascript:;" class="s-btn s-btn-green">snake green button</a>
+			<a href="javascript:;" class="s-btn s-btn-red">snake red button</a>
+		<h3 class="title-h3">单图标扁平按扭</h3>
+			<a href="javascript:;" class="s-btn-icon s-btn-default"><i class="s-btn-ic s-btn-cen s-ic-reply">&#xe60a;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue"><i class="s-btn-ic s-btn-cen s-ic-reply">&#xe60a;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow"><i class="s-btn-ic s-btn-cen s-ic-reply-all">&#xe60b;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green"><i class="s-btn-ic s-btn-cen s-ic-user">&#xe60c;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red"><i class="s-btn-ic s-btn-cen s-ic-house">&#xe621;</i></a>
 		<h3 class="title-h3">带图标扁平按扭</h3>
-			<a href="javascript:;" class="sna-button-icon sna-button-blue"><i class="sna-button-ic sna-button-left sna-icon-reply">&#xe60a;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-yellow"><i class="sna-button-ic sna-button-left sna-icon-reply-all">&#xe60b;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-green"><i class="sna-button-ic sna-button-left sna-icon-user">&#xe60c;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-red"><i class="sna-button-ic sna-button-left sna-icon-house">&#xe621;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-default"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow"><i class="s-btn-ic s-btn-left s-ic-reply-all">&#xe60b;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green"><i class="s-btn-ic s-btn-left s-ic-user">&#xe60c;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red"><i class="s-btn-ic s-btn-left s-ic-house">&#xe621;</i>snake button</a>
 			<br /><br />
-			<a href="javascript:;" class="sna-button-icon sna-button-blue">snake button<i class="sna-button-ic sna-button-right sna-icon-thunder">&#xe640;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-yellow">snake button<i class="sna-button-ic sna-button-right sna-icon-cart">&#xe666;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-green">snake button<i class="sna-button-ic sna-button-right sna-icon-down5">&#xe6cd;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-red">snake button<i class="sna-button-ic sna-button-right sna-icon-up4">&#xe6ce;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-default">snake button<i class="s-btn-ic s-btn-right s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue">snake button<i class="s-btn-ic s-btn-right s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow">snake button<i class="s-btn-ic s-btn-right s-ic-cart">&#xe666;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green">snake button<i class="s-btn-ic s-btn-right s-ic-down5">&#xe6cd;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red">snake button<i class="s-btn-ic s-btn-right s-ic-up4">&#xe6ce;</i></a>
 			<br /><br />
-			<a href="javascript:;" class="sna-button-icon sna-button-blue"><i class="sna-button-ic sna-button-cenleft sna-icon-reply">&#xe60a;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-yellow"><i class="sna-button-ic sna-button-cenleft sna-icon-reply-all">&#xe60b;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-green"><i class="sna-button-ic sna-button-cenleft sna-icon-user">&#xe60c;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-red"><i class="sna-button-ic sna-button-cenleft sna-icon-house">&#xe621;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-default"><i class="s-btn-ic s-btn-cenleft s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue"><i class="s-btn-ic s-btn-cenleft s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow"><i class="s-btn-ic s-btn-cenleft s-ic-reply-all">&#xe60b;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green"><i class="s-btn-ic s-btn-cenleft s-ic-user">&#xe60c;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red"><i class="s-btn-ic s-btn-cenleft s-ic-house">&#xe621;</i>snake button</a>
 			<br /><br />
-			<a href="javascript:;" class="sna-button-icon sna-button-blue">snake button<i class="sna-button-ic sna-button-cenright sna-icon-thunder">&#xe640;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-yellow">snake button<i class="sna-button-ic sna-button-cenright sna-icon-cart">&#xe666;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-green">snake button<i class="sna-button-ic sna-button-cenright sna-icon-down5">&#xe6cd;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-red">snake button<i class="sna-button-ic sna-button-cenright sna-icon-up4">&#xe6ce;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-default">snake button<i class="s-btn-ic s-btn-cenright s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue">snake button<i class="s-btn-ic s-btn-cenright s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow">snake button<i class="s-btn-ic s-btn-cenright s-ic-cart">&#xe666;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green">snake button<i class="s-btn-ic s-btn-cenright s-ic-down5">&#xe6cd;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red">snake button<i class="s-btn-ic s-btn-cenright s-ic-up4">&#xe6ce;</i></a>
 		<h3 class="title-h3">不可点按扭</h3>
-			<a href="javascript:;" class="sna-button sna-button-disable">snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-disable"><i class="sna-button-ic sna-button-left sna-icon-reply">&#xe60a;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-disable">snake button<i class="sna-button-ic sna-button-right sna-icon-thunder">&#xe640;</i></a>
-			<a href="javascript:;" class="sna-button-icon sna-button-disable"><i class="sna-button-ic sna-button-cenleft sna-icon-reply">&#xe60a;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-disable">snake button<i class="sna-button-ic sna-button-cenright sna-icon-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn s-btn-disable">snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable">snake button<i class="s-btn-ic s-btn-right s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable"><i class="s-btn-ic s-btn-cenleft s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable">snake button<i class="s-btn-ic s-btn-cenright s-ic-thunder">&#xe640;</i></a>
 		<h2 class="title-h2-h3">css3效果</h2>
 		<h3 class="title-h3">常规渐变按扭</h3>
-			<a href="javascript:;" class="sna-button sna-button-blue sna-button-gradient">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-yellow sna-button-gradient">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-green sna-button-gradient">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-red sna-button-gradient">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-default s-gradient">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue s-gradient">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-yellow s-gradient">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-green s-gradient">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-red s-gradient">snake button</a>
 		<h3 class="title-h3">带图标渐变按扭</h3>
-			<a href="javascript:;" class="sna-button-icon sna-button-blue sna-button-gradient"><i class="sna-button-ic sna-button-left sna-icon-reply">&#xe60a;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-yellow sna-button-gradient"><i class="sna-button-ic sna-button-left sna-icon-reply-all">&#xe60b;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-green sna-button-gradient"><i class="sna-button-ic sna-button-left sna-icon-user">&#xe60c;</i>snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-red sna-button-gradient"><i class="sna-button-ic sna-button-left sna-icon-house">&#xe621;</i>snake button</a>
-		<h3 class="title-h3" style="">去色按扭</h3>
-			<a href="javascript:;" class="sna-button sna-button-blue sna-button-grayscale">snake button</a>
-			<a href="javascript:;" class="sna-button sna-button-blue sna-button-gradient sna-button-grayscale">snake button</a>
-			<a href="javascript:;" class="sna-button-icon sna-button-blue sna-button-grayscale"><i class="sna-button-ic sna-button-left sna-icon-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-default s-gradient"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue s-gradient"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow s-gradient"><i class="s-btn-ic s-btn-left s-ic-reply-all">&#xe60b;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green s-gradient"><i class="s-btn-ic s-btn-left s-ic-user">&#xe60c;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red s-gradient"><i class="s-btn-ic s-btn-left s-ic-house">&#xe621;</i>snake button</a>
+		<h3 class="title-h3">去色按扭</h3>
+			<a href="javascript:;" class="s-btn s-btn-default s-grayscale">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue s-grayscale">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue s-gradient s-grayscale">snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-blue s-grayscale"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+		<h3 class="title-h3">css3基础按扭</h3>
+			<a href="javascript:;" class="s-btn s-btn-default s-css3-base">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue s-css3-base">snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow s-css3-base"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green s-css3-base">snake button<i class="s-btn-ic s-btn-right s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red s-css3-base"><i class="s-btn-ic s-btn-cenleft s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable s-css3-base">snake button<i class="s-btn-ic s-btn-cenright s-ic-thunder">&#xe640;</i></a>
+		<h3 class="title-h3">css3变形按扭</h3>
+			<a href="javascript:;" class="s-btn s-btn-default s-css3-base s-css3-extend">snake button</a>
+			<a href="javascript:;" class="s-btn s-btn-blue s-css3-base s-css3-extend">snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-yellow s-css3-base s-css3-extend"><i class="s-btn-ic s-btn-left s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-green s-css3-base s-css3-extend">snake button<i class="s-btn-ic s-btn-right s-ic-thunder">&#xe640;</i></a>
+			<a href="javascript:;" class="s-btn-icon s-btn-red s-css3-base s-css3-extend"><i class="s-btn-ic s-btn-cenleft s-ic-reply">&#xe60a;</i>snake button</a>
+			<a href="javascript:;" class="s-btn-icon s-btn-disable s-css3-base s-css3-extend">snake button<i class="s-btn-ic s-btn-cenright s-ic-thunder">&#xe640;</i></a>
 	</div>
 </body>
 </html>

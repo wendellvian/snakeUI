@@ -4,7 +4,7 @@
 // 按扭色模块
 #mod-buttonColor{
     // 扁平色
-    .mod-button-color(@BgColor,@FontColor){
+    .mod-btn-color(@BgColor,@FontColor){
         background:@BgColor;border:1px solid darken(@BgColor,10%);
         color:@FontColor;
         &:hover{
@@ -13,12 +13,21 @@
         }
         #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,10%));
         //  渐变状态
-        &.sna-button-gradient{
-            #mod-css3-effect > .css3-gradientColor(@BgColor,@FontColor);
+        &.s-gradient{
+            #mod-css3-effect > .css3-gradient(@BgColor,@FontColor);
         }
         //  去色状态
-        &.sna-button-grayscale{
+        &.s-grayscale{
             #mod-css3-effect > .css3-grayscale;
+        }
+        // css3基础效果
+        &.s-css3-base{
+            #mod-css3-effect > .css3-base(5px,0 0 2px,darken(@BgColor,30%),0 1px 1px);
+            
+        }
+        // css3扩展效果
+        &.s-css3-extend{
+            #mod-css3-effect > .css3-extend(0 5px 0,darken(@BgColor,20%));
         }
     }
 }
@@ -26,32 +35,32 @@
 
 // 小图标模块
 #mod-buttonIco{
-    .mod-button-ic(@Size:32px){
+    .mod-btn-ic(@Size:32px){
         display:inline-block;
         width:@Size;height:@Size;
-        margin:0 10px;
         line-height:@Size;text-align:center;overflow:hidden;vertical-align:middle;
-        #mod-icons > .mod-icon-family;
+        #mod-icons > .mod-ic-family;
         &:before{display:block;text-align:center;}
     }
     .mod-buttonIc-posi(@BordColor){
-        .sna-button-left{
-            margin-left:-10px;
+        .s-btn-left{
+            margin:0 10px 0 -10px;
             border-right:1px solid @BordColor;
         }
-        .sna-button-right{
-            margin-right:-10px;
+        .s-btn-right{
+            margin:0 -10px 0 10px;
             border-left:1px solid @BordColor;
         }
-        .sna-button-cenleft{
+        .s-btn-cenleft{
             width:auto;
-            margin-left:0;
-            border:0;
+            margin-right:10px;
         }
-        .sna-button-cenright{
+        .s-btn-cenright{
             width:auto;
-            margin-right:0;
-            border:0;
+            margin-left:10px;
+        }
+        .s-btn-cen{
+            margin:0 -10px;
         }
     }
 }
