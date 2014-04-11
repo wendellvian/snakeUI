@@ -18,22 +18,24 @@
 /* =按扭组------- */
     // 基础按扭
     .s-btn{
-        @Size:32px;
+        @Size:30px;
         display:inline-block;
         padding:5px 10px;
-        text-align:center;font-size:14px;text-decoration:none;
+        text-align:center;font-size:12px;text-decoration:none;
         &:hover{
             text-decoration:none;
         }
+        #mod-buttonColor > .mod-btn-color(#334D5C,#fff);  // 默认按扭色
+        #mod-buttonIco > .mod-buttonIc-posi();
         .s-btn-ic{
             #mod-buttonIco > .mod-btn-ic(@Size);
         }
         #mod-icons > .mod-ic-list;
     }
     // 扁平默认色
-    .s-btn-default{
-        #mod-buttonColor > .mod-btn-color(#334D5C,#fff);
-    }
+    // .s-btn-default{
+        // #mod-buttonColor > .mod-btn-color(#334D5C,#fff);
+    // }
     // 扁平蓝色系
     .s-btn-blue{
         #mod-buttonColor > .mod-btn-color(#3498db,#fff);

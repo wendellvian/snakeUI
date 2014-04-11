@@ -11,7 +11,7 @@
             background:darken(@BgColor,5%);
             color:@FontColor;
         }
-        #mod-buttonIco > .mod-buttonIc-posi(darken(@BgColor,10%));
+        #mod-buttonIco > .mod-buttonIc-posiColor(darken(@BgColor,10%));
         //  渐变状态
         &.s-gradient{
             #mod-css3-effect > .css3-gradient(@BgColor,@FontColor);
@@ -43,28 +43,31 @@
         #mod-icons > .mod-ic-family;
         &:before{display:block;text-align:center;}
     }
-    .mod-buttonIc-posi(@BordColor){
+    .mod-buttonIc-posi(){
         .s-btn-left{
-            // margin:0 10px 0 -10px;
             margin-left:-10px;margin-right:10px;
-            border-right:1px solid @BordColor;
         }
         .s-btn-right{
-            // margin:0 -10px 0 10px;
             margin-left:10px;margin-right:-10px;
-            border-left:1px solid @BordColor;
         }
         .s-btn-cenleft{
-            width:auto;
+            width:auto !important;
             margin-right:10px;
         }
         .s-btn-cenright{
-            width:auto;
+            width:auto !important;
             margin-left:10px;
         }
         .s-btn-cen{
-            // margin:0 -10px;
             margin-left:-10px;margin-right:-10px;
+        }
+    }
+    .mod-buttonIc-posiColor(@BordColor){
+        .s-btn-left{
+            border-right:1px solid @BordColor;
+        }
+        .s-btn-right{
+            border-left:1px solid @BordColor;
         }
     }
 }
