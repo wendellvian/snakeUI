@@ -22,10 +22,14 @@
 /*******************************
     Css3 Module
 *******************************/
-/* =按扭组------- */
+/* =按扭-基础件------ */
 .s-btn {
   display: inline-block;
-  padding: 5px 10px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
   text-align: center;
   font-size: 12px;
   text-decoration: none;
@@ -115,33 +119,10 @@
   -o-text-shadow: 0 1px 1px #0f161a;
   text-shadow: 0 1px 1px #0f161a;
 }
-.s-btn .s-btn-left {
-  margin-left: -10px;
-  margin-right: 10px;
-}
-.s-btn .s-btn-right {
-  margin-left: 10px;
-  margin-right: -10px;
-}
-.s-btn .s-btn-cenleft {
-  width: auto !important;
-  margin-right: 10px;
-}
-.s-btn .s-btn-cenright {
-  width: auto !important;
-  margin-left: 10px;
-}
-.s-btn .s-btn-cen {
-  margin-left: -10px;
-  margin-right: -10px;
-}
 .s-btn .s-btn-ic {
   display: inline-block;
-  width: 30px;
   height: 30px;
-  margin-top: -5px;
-  margin-bottom: -5px;
-  line-height: 30px;
+  padding: 0 8px;
   text-align: center;
   overflow: hidden;
   vertical-align: middle;
@@ -156,7 +137,27 @@
   display: block;
   text-align: center;
 }
-.s-btn .s-ic-iphone:before {
+.s-btn .s-btn-left {
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.s-btn .s-btn-right {
+  margin-left: 10px;
+  margin-right: -10px;
+}
+.s-btn .s-btn-cenleft {
+  padding: 0 !important;
+  margin-right: 10px;
+}
+.s-btn .s-btn-cenright {
+  padding: 0 !important;
+  margin-left: 10px;
+}
+.s-btn .s-btn-cen {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.s-btn .s-ic-phone:before {
   content: "\e600";
 }
 .s-btn .s-ic-mobile:before {
@@ -720,7 +721,7 @@
 .s-btn .s-ic-arrow-down:before {
   content: "\e6bd";
 }
-.s-btn .s-ic-arrow-up--upload:before {
+.s-btn .s-ic-arrow-up-upload:before {
   content: "\e6be";
 }
 .s-btn .s-ic-arrow-right:before {
@@ -1428,4 +1429,32 @@
 }
 .s-btn-disable:hover {
   background: #f2f2f2;
+}
+/* =按扭-组合件------ */
+.s-btn-group {
+  display: inline-block;
+}
+.s-btn-group a {
+  float: left;
+}
+.s-btn-group .s-css3-base {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.s-btn-group .s-css3-base:first-child {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.s-btn-group .s-css3-base:last-child {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }

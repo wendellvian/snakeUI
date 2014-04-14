@@ -15,27 +15,22 @@
 @import "css3effects.less";
 // -----------------------------------
 
-/* =按扭组------- */
+/* =按扭-基础件------ */
     // 基础按扭
     .s-btn{
         @Size:30px;
-        display:inline-block;
-        padding:5px 10px;
-        text-align:center;font-size:12px;text-decoration:none;
+        display:inline-block;overflow:hidden;cursor:pointer;
+        height:@Size;
+        padding:0 10px;
+        line-height:@Size;text-align:center;font-size:12px;text-decoration:none;
         &:hover{
             text-decoration:none;
         }
         #mod-buttonColor > .mod-btn-color(#334D5C,#fff);  // 默认按扭色
-        #mod-buttonIco > .mod-buttonIc-posi();
-        .s-btn-ic{
-            #mod-buttonIco > .mod-btn-ic(@Size);
-        }
-        #mod-icons > .mod-ic-list;
+        #mod-buttonIco > .mod-btn-ic(@Size);  // 图标基础
+        #mod-buttonIco > .mod-buttonIc-posi();  // 图标位置
+        #mod-icons > .mod-ic-list();  // 图标名称
     }
-    // 扁平默认色
-    // .s-btn-default{
-        // #mod-buttonColor > .mod-btn-color(#334D5C,#fff);
-    // }
     // 扁平蓝色系
     .s-btn-blue{
         #mod-buttonColor > .mod-btn-color(#3498db,#fff);
@@ -61,8 +56,22 @@
         }
     }
     
-
-
+/* =按扭-组合件------ */
+    .s-btn-group{
+        display:inline-block;
+    }
+    .s-btn-group a{
+        float:left;
+    }
+    .s-btn-group .s-css3-base{
+        #mod-css3-effect > .css3-radius(0);
+    }
+    .s-btn-group .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius(5px 0 0 5px);
+    }
+    .s-btn-group .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius(0 5px 5px 0);
+    }
 
 
 
