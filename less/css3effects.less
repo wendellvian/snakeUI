@@ -76,14 +76,14 @@
         .css3-text-shadow(@tShadow,rgba(0,0,0,@alpha));
     }
     // css3基础效果
-    .css3-base(@radius,@bShadow,@color,@tShadow){
+    .css3-base(@radius,@bShadow,@color){
         .css3-radius(@radius);
         .css3-box-shadow(@bShadow,@color);
-        .css3-text-shadow(@tShadow,@color);
     }
     // css3扩展效果
-    .css3-extend(@bShadow,@color){
+    .css3-extend(@bShadow,@color,@tShadow){
         .css3-box-shadow(@bShadow,@color);
+        .css3-text-shadow(@tShadow,@color);
     }
 }
 // #mod-css3-effect end

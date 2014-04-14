@@ -102,11 +102,6 @@
   -ms-box-shadow: 0 0 2px #000000;
   -o-box-shadow: 0 0 2px #000000;
   box-shadow: 0 0 2px #000000;
-  -webkit-text-shadow: 0 1px 1px #000000;
-  -moz-text-shadow: 0 1px 1px #000000;
-  -ms-text-shadow: 0 1px 1px #000000;
-  -o-text-shadow: 0 1px 1px #000000;
-  text-shadow: 0 1px 1px #000000;
 }
 .s-btn.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #0f161a;
@@ -114,6 +109,11 @@
   -ms-box-shadow: 0 5px 0 #0f161a;
   -o-box-shadow: 0 5px 0 #0f161a;
   box-shadow: 0 5px 0 #0f161a;
+  -webkit-text-shadow: 0 1px 1px #0f161a;
+  -moz-text-shadow: 0 1px 1px #0f161a;
+  -ms-text-shadow: 0 1px 1px #0f161a;
+  -o-text-shadow: 0 1px 1px #0f161a;
+  text-shadow: 0 1px 1px #0f161a;
 }
 .s-btn .s-btn-left {
   margin-left: -10px;
@@ -1076,11 +1076,6 @@
   -ms-box-shadow: 0 0 2px #124364;
   -o-box-shadow: 0 0 2px #124364;
   box-shadow: 0 0 2px #124364;
-  -webkit-text-shadow: 0 1px 1px #124364;
-  -moz-text-shadow: 0 1px 1px #124364;
-  -ms-text-shadow: 0 1px 1px #124364;
-  -o-text-shadow: 0 1px 1px #124364;
-  text-shadow: 0 1px 1px #124364;
 }
 .s-btn-blue.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #196090;
@@ -1088,6 +1083,11 @@
   -ms-box-shadow: 0 5px 0 #196090;
   -o-box-shadow: 0 5px 0 #196090;
   box-shadow: 0 5px 0 #196090;
+  -webkit-text-shadow: 0 1px 1px #196090;
+  -moz-text-shadow: 0 1px 1px #196090;
+  -ms-text-shadow: 0 1px 1px #196090;
+  -o-text-shadow: 0 1px 1px #196090;
+  text-shadow: 0 1px 1px #196090;
 }
 .s-btn-yellow {
   background: #ffa324;
@@ -1160,11 +1160,6 @@
   -ms-box-shadow: 0 0 2px #8a5000;
   -o-box-shadow: 0 0 2px #8a5000;
   box-shadow: 0 0 2px #8a5000;
-  -webkit-text-shadow: 0 1px 1px #8a5000;
-  -moz-text-shadow: 0 1px 1px #8a5000;
-  -ms-text-shadow: 0 1px 1px #8a5000;
-  -o-text-shadow: 0 1px 1px #8a5000;
-  text-shadow: 0 1px 1px #8a5000;
 }
 .s-btn-yellow.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #bd6e00;
@@ -1172,6 +1167,11 @@
   -ms-box-shadow: 0 5px 0 #bd6e00;
   -o-box-shadow: 0 5px 0 #bd6e00;
   box-shadow: 0 5px 0 #bd6e00;
+  -webkit-text-shadow: 0 1px 1px #bd6e00;
+  -moz-text-shadow: 0 1px 1px #bd6e00;
+  -ms-text-shadow: 0 1px 1px #bd6e00;
+  -o-text-shadow: 0 1px 1px #bd6e00;
+  text-shadow: 0 1px 1px #bd6e00;
 }
 .s-btn-green {
   background: #45b29d;
@@ -1244,11 +1244,6 @@
   -ms-box-shadow: 0 0 2px #1a443c;
   -o-box-shadow: 0 0 2px #1a443c;
   box-shadow: 0 0 2px #1a443c;
-  -webkit-text-shadow: 0 1px 1px #1a443c;
-  -moz-text-shadow: 0 1px 1px #1a443c;
-  -ms-text-shadow: 0 1px 1px #1a443c;
-  -o-text-shadow: 0 1px 1px #1a443c;
-  text-shadow: 0 1px 1px #1a443c;
 }
 .s-btn-green.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #29685c;
@@ -1256,6 +1251,11 @@
   -ms-box-shadow: 0 5px 0 #29685c;
   -o-box-shadow: 0 5px 0 #29685c;
   box-shadow: 0 5px 0 #29685c;
+  -webkit-text-shadow: 0 1px 1px #29685c;
+  -moz-text-shadow: 0 1px 1px #29685c;
+  -ms-text-shadow: 0 1px 1px #29685c;
+  -o-text-shadow: 0 1px 1px #29685c;
+  text-shadow: 0 1px 1px #29685c;
 }
 .s-btn-red {
   background: #df5a49;
@@ -1328,11 +1328,6 @@
   -ms-box-shadow: 0 0 2px #7a2115;
   -o-box-shadow: 0 0 2px #7a2115;
   box-shadow: 0 0 2px #7a2115;
-  -webkit-text-shadow: 0 1px 1px #7a2115;
-  -moz-text-shadow: 0 1px 1px #7a2115;
-  -ms-text-shadow: 0 1px 1px #7a2115;
-  -o-text-shadow: 0 1px 1px #7a2115;
-  text-shadow: 0 1px 1px #7a2115;
 }
 .s-btn-red.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #a52c1d;
@@ -1340,6 +1335,11 @@
   -ms-box-shadow: 0 5px 0 #a52c1d;
   -o-box-shadow: 0 5px 0 #a52c1d;
   box-shadow: 0 5px 0 #a52c1d;
+  -webkit-text-shadow: 0 1px 1px #a52c1d;
+  -moz-text-shadow: 0 1px 1px #a52c1d;
+  -ms-text-shadow: 0 1px 1px #a52c1d;
+  -o-text-shadow: 0 1px 1px #a52c1d;
+  text-shadow: 0 1px 1px #a52c1d;
 }
 .s-btn-disable {
   cursor: default;
@@ -1413,11 +1413,6 @@
   -ms-box-shadow: 0 0 2px #a5a5a5;
   -o-box-shadow: 0 0 2px #a5a5a5;
   box-shadow: 0 0 2px #a5a5a5;
-  -webkit-text-shadow: 0 1px 1px #a5a5a5;
-  -moz-text-shadow: 0 1px 1px #a5a5a5;
-  -ms-text-shadow: 0 1px 1px #a5a5a5;
-  -o-text-shadow: 0 1px 1px #a5a5a5;
-  text-shadow: 0 1px 1px #a5a5a5;
 }
 .s-btn-disable.s-css3-extend {
   -webkit-box-shadow: 0 5px 0 #bfbfbf;
@@ -1425,6 +1420,11 @@
   -ms-box-shadow: 0 5px 0 #bfbfbf;
   -o-box-shadow: 0 5px 0 #bfbfbf;
   box-shadow: 0 5px 0 #bfbfbf;
+  -webkit-text-shadow: 0 1px 1px #bfbfbf;
+  -moz-text-shadow: 0 1px 1px #bfbfbf;
+  -ms-text-shadow: 0 1px 1px #bfbfbf;
+  -o-text-shadow: 0 1px 1px #bfbfbf;
+  text-shadow: 0 1px 1px #bfbfbf;
 }
 .s-btn-disable:hover {
   background: #f2f2f2;
