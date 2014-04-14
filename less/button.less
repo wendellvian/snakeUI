@@ -36,12 +36,14 @@
 // 小图标模块
 #mod-buttonIco{
     .mod-btn-ic(@Size){
-        display:inline-block;
-        width:@Size;height:@Size;
-        margin-top:-5px;margin-bottom:-5px;
-        line-height:@Size;text-align:center;overflow:hidden;vertical-align:middle;
-        #mod-icons > .mod-ic-family;
-        &:before{display:block;text-align:center;}
+        .s-btn-ic{
+            display:inline-block;
+            height:@Size;
+            padding:0 8px;
+            text-align:center;overflow:hidden;vertical-align:middle;
+            #mod-icons > .mod-ic-family;
+            &:before{display:block;text-align:center;}
+        }
     }
     .mod-buttonIc-posi(){
         .s-btn-left{
@@ -51,11 +53,11 @@
             margin-left:10px;margin-right:-10px;
         }
         .s-btn-cenleft{
-            width:auto !important;
+            padding:0 !important;
             margin-right:10px;
         }
         .s-btn-cenright{
-            width:auto !important;
+            padding:0 !important;
             margin-left:10px;
         }
         .s-btn-cen{
