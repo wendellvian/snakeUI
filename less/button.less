@@ -1,0 +1,80 @@
+// *******************************/
+//    Button Module
+// *******************************/
+// 按扭色模块
+#mod-buttonColor{
+    // 扁平色
+    .mod-btn-color(@BgColor,@FontColor){
+        background:@BgColor;border:1px solid darken(@BgColor,10%);
+        color:@FontColor;
+        &:hover{
+            background:darken(@BgColor,5%);
+            color:@FontColor;
+        }
+        #mod-buttonIco > .mod-buttonIc-posiColor(darken(@BgColor,10%));
+        //  渐变状态
+        &.s-gradient{
+            #mod-css3-effect > .css3-gradient(@BgColor,@FontColor);
+        }
+        //  去色状态
+        &.s-grayscale{
+            #mod-css3-effect > .css3-grayscale;
+        }
+        // css3基础效果
+        &.s-css3-base{
+            #mod-css3-effect > .css3-base(5px,0 0 2px,darken(@BgColor,30%));
+            
+        }
+        // css3扩展效果
+        &.s-css3-extend{
+            #mod-css3-effect > .css3-extend(0 5px 0,darken(@BgColor,20%),0 1px 1px);
+        }
+    }
+}
+// #mod-buttonColor end
+
+// 小图标模块
+#mod-buttonIco{
+    .mod-btn-ic(@Size){
+        .s-btn-ic{
+            display:inline-block;
+            height:@Size;
+            padding:0 8px;
+            text-align:center;overflow:hidden;vertical-align:middle;
+            #mod-icons > .mod-ic-family;
+            &:before{display:block;text-align:center;}
+        }
+    }
+    .mod-buttonIc-posi(){
+        .s-btn-left{
+            margin-left:-10px;margin-right:10px;
+        }
+        .s-btn-right{
+            margin-left:10px;margin-right:-10px;
+        }
+        .s-btn-cenleft{
+            padding:0 !important;
+            margin-right:10px;
+        }
+        .s-btn-cenright{
+            padding:0 !important;
+            margin-left:10px;
+        }
+        .s-btn-cen{
+            margin-left:-10px;margin-right:-10px;
+        }
+    }
+    .mod-buttonIc-posiColor(@BordColor){
+        .s-btn-left{
+            border-right:1px solid @BordColor;
+        }
+        .s-btn-right{
+            border-left:1px solid @BordColor;
+        }
+    }
+}
+// #mod-buttonIco end
+    
+
+
+
