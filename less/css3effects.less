@@ -53,6 +53,35 @@
         -o-border-radius:@radius;
         border-radius:@radius;
     }
+    // 圆角拆分
+    .css3-radius-topleft(@radius:5px){
+        -webkit-border-top-left-radius:@radius;
+        -moz-border-top-left-radius:@radius;
+        -ms-border-top-left-radius:@radius;
+        -o-border-top-left-radius:@radius;
+        border-top-left-radius:@radius;
+    }
+    .css3-radius-topright(@radius:5px){
+        -webkit-border-top-right-radius:@radius;
+        -moz-border-top-right-radius:@radius;
+        -ms-border-top-right-radius:@radius;
+        -o-border-top-right-radius:@radius;
+        border-top-right-radius:@radius;
+    }
+    .css3-radius-bottomright(@radius:5px){
+        -webkit-border-bottom-right-radius:@radius;
+        -moz-border-bottom-right-radius:@radius;
+        -ms-border-bottom-right-radius:@radius;
+        -o-border-bottom-right-radius:@radius;
+        border-bottom-right-radius:@radius;
+    }
+    .css3-radius-bottomleft(@radius:5px){
+        -webkit-border-bottom-left-radius:@radius;
+        -moz-border-bottom-left-radius:@radius;
+        -ms-border-bottom-left-radius:@radius;
+        -o-border-bottom-left-radius:@radius;
+        border-bottom-left-radius:@radius;
+    }
     // 盒子阴影
     .css3-box-shadow(@bShadow,@color) when (iscolor(@color)){
         -webkit-box-shadow:@bShadow @color;

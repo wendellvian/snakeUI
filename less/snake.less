@@ -95,17 +95,16 @@ a:hover{
 .s-fr{
     float:right;display:inline;
 }
-
 // Load-import
-@import "button.less";
-@import "icon.less";
-@import "css3effects.less";
+@import "icon.less";  // 字体图标
+@import "css3effects.less"; // css3效果
+@import "button.less";  // 按扭
+@import "form.less";  // 表单
 // -----------------------------------
-
+@Size:30px;
 /* =按扭-基础件------ */
     // 基础按扭
     .s-btn{
-        @Size:30px;
         display:inline-block;overflow:hidden;cursor:pointer;
         height:@Size;
         padding:0 10px;
@@ -145,7 +144,7 @@ a:hover{
     
 /* =按扭-组合件------ */
     .s-btn-group{
-        display:inline-block;
+        display:inline-block;*display:inline;zoom:1;
     }
     .s-btn-group a{
         float:left;
@@ -158,6 +157,21 @@ a:hover{
     }
     .s-btn-group .s-css3-base:last-child{
         #mod-css3-effect > .css3-radius(0 5px 5px 0);
+    }
+    .s-btn-group p .s-css3-base:first-child,.s-btn-group p .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius(0);
+    }
+    .s-btn-group p:first-child .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius-topleft();
+    }
+    .s-btn-group p:first-child .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius-topright();
+    }
+    .s-btn-group p:last-child .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius-bottomleft();
+    }
+    .s-btn-group p:last-child .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius-bottomright();
     }
 
 

@@ -1,0 +1,20 @@
+// *******************************/
+//    Form Module
+// *******************************/
+#mod-form{
+    .mod-input-color(@Style,@BrColor,@BgColor){
+        border:@Style @BrColor;background:@BgColor;
+        // css3基础效果
+        &.s-css3-base{
+            #mod-css3-effect > .css3-base(5px,inset 1px 1px 1px,darken(@BrColor,2%));
+        }
+    }
+}
+// #mod-form end
+/* =表单-基础件------ */
+    .s-ipt{
+        height:16px;
+        padding:7px 5px;
+        #mod-form > .mod-input-color(1px solid,#ccc,#fff);
+    }
+
