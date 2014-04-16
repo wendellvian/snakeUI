@@ -205,6 +205,27 @@ a:hover {
   display: block;
   text-align: center;
 }
+.s-ic-default {
+  background: #334d5c;
+  border: 1px solid #334d5c;
+  color: #ffffff;
+}
+.s-ic-blue {
+  background: #3498db;
+  color: #ffffff;
+}
+.s-ic-yellow {
+  background: #ffa324;
+  color: #ffffff;
+}
+.s-ic-green {
+  background: #45b29d;
+  color: #ffffff;
+}
+.s-ic-red {
+  background: #df5a49;
+  color: #ffffff;
+}
 .s-ptn-left {
   margin: 0 10px 0 -10px;
 }
@@ -1071,6 +1092,34 @@ a:hover {
 .s-ic-ccw:before {
   content: "\e689";
 }
+.s-grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.s-grayscale:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.s-css3-base {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
 /* =按扭-基础件------ */
 .s-btn {
   display: inline-block;
@@ -1508,11 +1557,11 @@ a:hover {
   cursor: default;
   background: #f2f2f2;
   border: 1px solid #d9d9d9;
-  color: #dadada;
+  color: #d9d9d9;
 }
 .s-btn-disable:hover {
   background: #e5e5e5;
-  color: #dadada;
+  color: #d9d9d9;
 }
 .s-btn-disable .s-ptn-left {
   border-right: 1px solid #d9d9d9;
@@ -1523,7 +1572,7 @@ a:hover {
 .s-btn-disable.s-gradient {
   background: #f2f2f2;
   border: 1px solid #cccccc;
-  color: #dadada;
+  color: #d9d9d9;
   background: -moz-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #d9d9d9));
   background: -webkit-linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
@@ -1534,7 +1583,7 @@ a:hover {
 }
 .s-btn-disable.s-gradient:hover {
   background: #d9d9d9;
-  color: #dadada;
+  color: #d9d9d9;
   background: -moz-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #e5e5e5));
   background: -webkit-linear-gradient(top, #f2f2f2 0%, #e5e5e5 100%);
@@ -1600,9 +1649,6 @@ a:hover {
   padding-bottom: 1px;
   font-size: 0;
 }
-.s-btn-group a {
-  *margin-right: -1px;
-}
 .s-btn-group .s-css3-base {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1660,10 +1706,39 @@ a:hover {
   -o-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+.s-btn-group a {
+  *margin-right: -1px;
+}
 /* =表单-基础件------ */
 .s-input {
   display: inline-block;
   height: 30px;
+  padding-bottom: 2px;
+  line-height: 30px;
+}
+.s-input.s-css3-base .s-ic {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.s-input.s-css3-base .s-ipt {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -ms-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .s-textarea {
   width: 100%;
@@ -1689,6 +1764,7 @@ a:hover {
   padding: 7px 5px 8px;
   border: 1px solid #cccccc;
   background: #ffffff;
+  vertical-align: middle;
 }
 .s-ipt.s-css3-base {
   -webkit-border-radius: 5px;

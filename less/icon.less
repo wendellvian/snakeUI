@@ -22,6 +22,28 @@
             &:before{display:block;text-align:center;}
         }
     }
+    .mod-ic-color(){
+        .s-ic-default{
+            background:@DefaultColor;border:1px solid @DefaultColor;
+            color:lighten(@DefaultColor,100%);
+        }
+        .s-ic-blue{
+            background:@BlueColor;
+            color:lighten(@BlueColor,100%);
+        }
+        .s-ic-yellow{
+            background:@YellowColor;
+            color:lighten(@YellowColor,100%);
+        }
+        .s-ic-green{
+            background:@GreenColor;
+            color:lighten(@GreenColor,100%);
+        }
+        .s-ic-red{
+            background:@RedColor;
+            color:lighten(@RedColor,100%);
+        }
+    }
     .mod-ic-ptn(){
         .s-ptn-left{
             margin:0 10px 0 -10px;
@@ -912,5 +934,6 @@
 // #mod-icons end
 
 #mod-icons > .mod-ic();  // 图标基础
+#mod-icons > .mod-ic-color(); // 图标颜色
 #mod-icons > .mod-ic-ptn();  // 图标位置
 #mod-icons > .mod-ic-list();  // 图标名称
