@@ -11,7 +11,7 @@
             background:darken(@BgColor,5%);
             color:@FontColor;
         }
-        #mod-buttonIco > .mod-buttonIc-posiColor(darken(@BgColor,10%));
+        #mod-icons > .mod-ic-posiColor(darken(@BgColor,10%));
         //  渐变状态
         &.s-gradient{
             #mod-css3-effect > .css3-gradient(@BgColor,@FontColor);
@@ -32,47 +32,79 @@
 }
 // #mod-buttonColor end
 
-// 小图标模块
-#mod-buttonIco{
-    .mod-btn-ic(@Size){
-        .s-btn-ic{
-            display:inline-block;
-            height:@Size;
-            padding:0 8px;
-            text-align:center;overflow:hidden;vertical-align:middle;
-            #mod-icons > .mod-ic-family;
-            &:before{display:block;text-align:center;}
+/* =按扭-基础件------ */
+    // 基础按扭
+    .s-btn{
+        display:inline-block;cursor:pointer;
+        height:@Size;
+        padding:0 10px;
+        line-height:@Size;text-align:center;font-size:12px;text-decoration:none;vertical-align:middle;
+        &:hover{
+            text-decoration:none;
+        }
+        #mod-buttonColor > .mod-btn-color(#334D5C,#fff);  // 默认按扭色
+    }
+    // 扁平蓝色系
+    .s-btn-blue{
+        #mod-buttonColor > .mod-btn-color(#3498db,#fff);
+    }
+    // 扁平黄色系
+    .s-btn-yellow{
+        #mod-buttonColor > .mod-btn-color(#ffa324,#fff);
+    }
+    // 扁平绿色系
+    .s-btn-green{
+        #mod-buttonColor > .mod-btn-color(#45B29D,#fff);
+    }
+    // 扁平红色系
+    .s-btn-red{
+        #mod-buttonColor > .mod-btn-color(#DF5A49,#fff);
+    }
+    // 不可点状态
+    .s-btn-disable{
+        cursor:default;
+        #mod-buttonColor > .mod-btn-color(#f2f2f2,#dadada);
+        &:hover{
+            background:#f2f2f2;
         }
     }
-    .mod-buttonIc-posi(){
-        .s-btn-left{
-            margin-left:-10px;margin-right:10px;
-        }
-        .s-btn-right{
-            margin-left:10px;margin-right:-10px;
-        }
-        .s-btn-cenleft{
-            padding:0 !important;
-            margin-right:10px;
-        }
-        .s-btn-cenright{
-            padding:0 !important;
-            margin-left:10px;
-        }
-        .s-btn-cen{
-            margin-left:-10px;margin-right:-10px;
-        }
+    
+/* =按扭-组合件------ */
+    .s-btn-group{
+        display:inline-block;*display:inline;zoom:1;
+        padding-bottom:1px;
+        font-size:0;
     }
-    .mod-buttonIc-posiColor(@BordColor){
-        .s-btn-left{
-            border-right:1px solid @BordColor;
-        }
-        .s-btn-right{
-            border-left:1px solid @BordColor;
-        }
+    .s-btn-group a{
+        *margin-right:-1px;
     }
-}
-// #mod-buttonIco end
+    .s-btn-group .s-css3-base{
+        #mod-css3-effect > .css3-radius(0);
+    }
+    .s-btn-group .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius(5px 0 0 5px);
+    }
+    .s-btn-group .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius(0 5px 5px 0);
+    }
+    .s-btn-group p .s-css3-base:first-child,.s-btn-group p .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius(0);
+    }
+    .s-btn-group p:first-child .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius-topleft();
+    }
+    .s-btn-group p:first-child .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius-topright();
+    }
+    .s-btn-group p:last-child .s-css3-base:first-child{
+        #mod-css3-effect > .css3-radius-bottomleft();
+    }
+    .s-btn-group p:last-child .s-css3-base:last-child{
+        #mod-css3-effect > .css3-radius-bottomright();
+    }
+
+
+
     
 
 

@@ -12,6 +12,43 @@
 }
 
 #mod-icons{
+    .mod-ic(){
+        .s-ic{
+            display:inline-block;
+            height:inherit;
+            padding:0 8px;
+            text-align:center;overflow:hidden;vertical-align:middle;
+            #mod-icons > .mod-ic-family;
+            &:before{display:block;text-align:center;}
+        }
+    }
+    .mod-ic-ptn(){
+        .s-ptn-left{
+            margin:0 10px 0 -10px;
+        }
+        .s-ptn-right{
+            margin:0 -10px 0 10px;
+        }
+        .s-ptn-cenleft{
+            padding:0;
+            margin-right:10px;
+        }
+        .s-ptn-cenright{
+            padding:0;
+            margin-left:10px;
+        }
+        .s-ptn-cen{
+            margin:0 -10px;
+        }
+    }
+    .mod-ic-posiColor(@BordColor){
+        .s-ptn-left{
+            border-right:1px solid @BordColor;
+        }
+        .s-ptn-right{
+            border-left:1px solid @BordColor;
+        }
+    }
     .mod-ic-family(){
         font-family: 'icomoon';
         font-style: normal;
@@ -872,4 +909,8 @@
         }
     }
 }
-//  #mod-icon end
+// #mod-icons end
+
+#mod-icons > .mod-ic();  // 图标基础
+#mod-icons > .mod-ic-ptn();  // 图标位置
+#mod-icons > .mod-ic-list();  // 图标名称

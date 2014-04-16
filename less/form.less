@@ -6,15 +6,23 @@
         border:@Style @BrColor;background:@BgColor;
         // css3基础效果
         &.s-css3-base{
-            #mod-css3-effect > .css3-base(5px,inset 1px 1px 1px,darken(@BrColor,2%));
+            #mod-css3-effect > .css3-base(5px,inset 1px 1px 1px,lighten(@BrColor,10%));
         }
     }
 }
 // #mod-form end
 /* =表单-基础件------ */
-    .s-ipt{
-        height:16px;
-        padding:7px 5px;
+    .s-input{
+        display:inline-block;
+        height:@Size;
+    }
+    .s-textarea{
+        width:100%;height:100px;
+        padding:7px 5px 8px;
         #mod-form > .mod-input-color(1px solid,#ccc,#fff);
     }
-
+    .s-ipt{
+        height:@Size/2;
+        padding:7px 5px 8px;
+        #mod-form > .mod-input-color(1px solid,#ccc,#fff);
+    }
