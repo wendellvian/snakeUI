@@ -17,14 +17,23 @@
         height:@Size;
         padding-bottom:2px;
         line-height:@Size;
+        .s-ic{
+            margin:0;
+        }
         &.s-css3-base{
             .s-ic{
                 #mod-css3-effect > .css3-radius-topleft();
                 #mod-css3-effect > .css3-radius-bottomleft();
+                &+.s-ipt{
+                    #mod-css3-effect > .css3-radius(0 5px 5px 0);
+                }
             }
             .s-ipt{
-                #mod-css3-effect > .css3-radius-topright();
-                #mod-css3-effect > .css3-radius-bottomright();
+                #mod-css3-effect > .css3-radius-topleft();
+                #mod-css3-effect > .css3-radius-bottomleft();
+                &+.s-ic{
+                    #mod-css3-effect > .css3-radius(0 5px 5px 0);
+                }
             }
         }
     }
@@ -34,9 +43,9 @@
         #mod-form > .mod-input-color(1px solid,#ccc,#fff);
     }
     .s-ipt{
-        height:@Size/2;
+        height:@Size+(-15);
         padding:7px 5px 8px;
         #mod-form > .mod-input-color(1px solid,#ccc,#fff);
-        vertical-align:middle;
+        line-height:@Size+(-15);vertical-align:middle;
     }
         

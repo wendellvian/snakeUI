@@ -8,7 +8,7 @@
 	<style>
 		body{padding:60px;font-family:"\5FAE\8F6F\96C5\9ED1";}
 		.snake-box{padding:0 10px 10px;border-left:1px dotted #ddd;}
-		.snake-box1 a{margin-right:10px;vertical-align:middle;}
+		.snake-box3 .s-input{margin-right:10px;vertical-align:middle;}
 		.title-h1{display:inline-block;padding:0 10px;color:#333;font-size:40px;}
 		.title-h2{display:inline-block;margin-left:-11px;padding:0 10px;background:#ddd;color:#333;font-size:30px;}
 		.title-h2-h3{margin:10px 0 10px -10px;padding:5px;background:#b1a599;border-left:5px solid #ccc;}
@@ -19,9 +19,9 @@
 	<h1 class="title-h1">Snake UI</h1>
 	<div class="snake-box">
 		<h2 class="title-h2">表单--基础件</h2>
-		<h3 class="title-h3">输入框</h3>
+		<h3 class="title-h3">常规输入框</h3>
 		<div class="snake-box3">
-			<input type="text" placeholder="用户名" class="s-ipt s-css3-base" />
+			<input type="text" placeholder="用户名" class="s-ipt" />
 			<br /><br />
 			<input type="password" placeholder="密码" class="s-ipt" />
 			<br /><br />
@@ -29,12 +29,79 @@
 		</div>
 		<h3 class="title-h3">带图标输入框</h3>
 		<div class="snake-box3">
+			<span class="s-input">
+				<i class="s-ic s-ptn-left s-ic-default s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input">
+				<i class="s-ic s-ptn-left s-ic-blue s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input">
+				<i class="s-ic s-ptn-left s-ic-yellow s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input">
+				<i class="s-ic s-ptn-left s-ic-green s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input">
+				<i class="s-ic s-ptn-left s-ic-red s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<br /><br />
+			<span class="s-input">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-default s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-blue s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-yellow s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-green s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-red s-ic-user">&#xe60c;</i>
+			</span>
+		</div>
+		<h3 class="title-h2-h3">css3效果</h3>
+		<h3 class="title-h3">常规输入框</h3>
+		<div class="snake-box3">
+			<input type="text" placeholder="用户名" class="s-ipt s-css3-base" />
+			<br /><br />
+			<input type="password" placeholder="密码" class="s-ipt s-css3-base" />
+			<br /><br />
+			<textarea placeholder="内容" class="s-textarea s-css3-base"></textarea>
+		</div>
+		<h3 class="title-h3">带图标输入框</h3>
+		<div class="snake-box3">
 			<span class="s-input s-css3-base">
-				<i class="s-ic s-ic-default s-ic-user">&#xe60a;</i><input type="text" placeholder="用户名" class="s-ipt" />
+				<i class="s-ic s-ptn-left s-ic-default s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input s-css3-base">
+				<i class="s-ic s-ptn-left s-ic-blue s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input s-css3-base">
+				<i class="s-ic s-ptn-left s-ic-yellow s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input s-css3-base">
+				<i class="s-ic s-ptn-left s-ic-green s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
+			</span>
+			<span class="s-input s-css3-base">
+				<i class="s-ic s-ptn-left s-ic-red s-ic-user">&#xe60c;</i><input type="text" placeholder="用户名" class="s-ipt" />
 			</span>
 			<br /><br />
 			<span class="s-input s-css3-base">
-				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ic-default s-ic-user">&#xe60a;</i>
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-default s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input s-css3-base">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-blue s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input s-css3-base">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-yellow s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input s-css3-base">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-green s-ic-user">&#xe60c;</i>
+			</span>
+			<span class="s-input s-css3-base">
+				<input type="text" placeholder="用户名" class="s-ipt" /><i class="s-ic s-ptn-right s-ic-red s-ic-user">&#xe60c;</i>
 			</span>
 		</div>
 	</div>	

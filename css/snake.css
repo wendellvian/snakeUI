@@ -212,18 +212,22 @@ a:hover {
 }
 .s-ic-blue {
   background: #3498db;
+  border: 1px solid #3498db;
   color: #ffffff;
 }
 .s-ic-yellow {
   background: #ffa324;
+  border: 1px solid #ffa324;
   color: #ffffff;
 }
 .s-ic-green {
   background: #45b29d;
+  border: 1px solid #45b29d;
   color: #ffffff;
 }
 .s-ic-red {
   background: #df5a49;
+  border: 1px solid #df5a49;
   color: #ffffff;
 }
 .s-ptn-left {
@@ -1716,6 +1720,9 @@ a:hover {
   padding-bottom: 2px;
   line-height: 30px;
 }
+.s-input .s-ic {
+  margin: 0;
+}
 .s-input.s-css3-base .s-ic {
   -webkit-border-top-left-radius: 5px;
   -moz-border-top-left-radius: 5px;
@@ -1728,17 +1735,31 @@ a:hover {
   -o-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.s-input.s-css3-base .s-ic + .s-ipt {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
 .s-input.s-css3-base .s-ipt {
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-  -ms-border-top-right-radius: 5px;
-  -o-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-bottom-right-radius: 5px;
-  -ms-border-bottom-right-radius: 5px;
-  -o-border-bottom-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.s-input.s-css3-base .s-ipt + .s-ic {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
 .s-textarea {
   width: 100%;
@@ -1764,6 +1785,7 @@ a:hover {
   padding: 7px 5px 8px;
   border: 1px solid #cccccc;
   background: #ffffff;
+  line-height: 15px;
   vertical-align: middle;
 }
 .s-ipt.s-css3-base {
