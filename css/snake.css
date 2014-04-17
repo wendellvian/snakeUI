@@ -1118,6 +1118,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
@@ -1127,6 +1128,7 @@ a:hover {
 /* =按扭-基础件------ */
 .s-btn {
   display: inline-block;
+  overflow: hidden;
   cursor: pointer;
   height: 30px;
   padding: 0 10px;
@@ -1203,6 +1205,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #000000;
   -moz-box-shadow: 0 0 2px #000000;
   -ms-box-shadow: 0 0 2px #000000;
@@ -1287,6 +1290,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #124364;
   -moz-box-shadow: 0 0 2px #124364;
   -ms-box-shadow: 0 0 2px #124364;
@@ -1371,6 +1375,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #8a5000;
   -moz-box-shadow: 0 0 2px #8a5000;
   -ms-box-shadow: 0 0 2px #8a5000;
@@ -1455,6 +1460,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #1a443c;
   -moz-box-shadow: 0 0 2px #1a443c;
   -ms-box-shadow: 0 0 2px #1a443c;
@@ -1539,6 +1545,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #7a2115;
   -moz-box-shadow: 0 0 2px #7a2115;
   -ms-box-shadow: 0 0 2px #7a2115;
@@ -1624,6 +1631,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: 0 0 2px #a5a5a5;
   -moz-box-shadow: 0 0 2px #a5a5a5;
   -ms-box-shadow: 0 0 2px #a5a5a5;
@@ -1659,6 +1667,7 @@ a:hover {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
+  background-clip: padding-box;
 }
 .s-btn-group .s-css3-base:first-child {
   -webkit-border-radius: 5px 0 0 5px;
@@ -1666,6 +1675,7 @@ a:hover {
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
   border-radius: 5px 0 0 5px;
+  background-clip: padding-box;
 }
 .s-btn-group .s-css3-base:last-child {
   -webkit-border-radius: 0 5px 5px 0;
@@ -1673,6 +1683,7 @@ a:hover {
   -ms-border-radius: 0 5px 5px 0;
   -o-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
+  background-clip: padding-box;
 }
 .s-btn-group p .s-css3-base:first-child,
 .s-btn-group p .s-css3-base:last-child {
@@ -1681,6 +1692,7 @@ a:hover {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
+  background-clip: padding-box;
 }
 .s-btn-group p:first-child .s-css3-base:first-child {
   -webkit-border-top-left-radius: 5px;
@@ -1741,6 +1753,7 @@ a:hover {
   -ms-border-radius: 0 5px 5px 0;
   -o-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
+  background-clip: padding-box;
 }
 .s-input.s-css3-base .s-ipt {
   -webkit-border-top-left-radius: 5px;
@@ -1760,6 +1773,7 @@ a:hover {
   -ms-border-radius: 0 5px 5px 0;
   -o-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
+  background-clip: padding-box;
 }
 .s-textarea {
   width: 100%;
@@ -1774,6 +1788,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: inset 1px 1px 1px #e6e6e6;
   -moz-box-shadow: inset 1px 1px 1px #e6e6e6;
   -ms-box-shadow: inset 1px 1px 1px #e6e6e6;
@@ -1794,6 +1809,7 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  background-clip: padding-box;
   -webkit-box-shadow: inset 1px 1px 1px #e6e6e6;
   -moz-box-shadow: inset 1px 1px 1px #e6e6e6;
   -ms-box-shadow: inset 1px 1px 1px #e6e6e6;
