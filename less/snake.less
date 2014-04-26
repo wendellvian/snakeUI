@@ -8,106 +8,31 @@
  *  @description   : 定制前缀 s-
  */
 /* @end **/
-/* =Reset-------- */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
-    margin:0;padding:0;
-}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
-    display:block;
-}
-audio,canvas,video{
-    display:inline-block;*display:inline;*zoom:1;
-}
-body,button,input,select,textarea{
-    font:12px/1.5 Tahoma,"\5b8b\4f53",Arial,Helvetica,"\5fae\8f6f\96c5\9ed1",sans-serif;
-}
-input,select,textarea{
-    font-size:100%;
-}
-table{
-    border-collapse:collapse;border-spacing:0;
-}
-th{
-    text-align:inherit;
-}
-fieldset,img{
-    border:0;
-}
-iframe{
-    display:block;
-}
-abbr,acronym{
-    border:0;font-variant:normal;
-}
-del{
-    text-decoration:line-through;
-}
-address,caption,cite,code,dfn,em,th,var{
-    font-style:normal;font-weight:500;
-}
-ol,ul{
-    list-style:none;
-}
-caption,th{
-    text-align:left;
-}
-h1,h2,h3,h4,h5,h6{
-    font-size:100%;
-}
-q:before,q:after{
-    content:'';
-}
-sub,sup{
-    position:relative;font-size:75%;line-height:0;vertical-align:baseline;
-}
-sup{
-    top:-0.5em;
-}
-sub{
-    bottom:0.25em;
-}
-ins,a{
-    text-decoration:none;
-}
-a:hover{
-    text-decoration:underline;
-}
 
-/* =clear-------- */
-.s-clearfix:after{
-    clear:both;content:".";display:block;height:0;visibility:hidden;
-}
-.s-clearfix{
-    *zoom:1;
-}
+// Load-import-begin-------------------- //
+// reset
+@import "browsereset.less";
+// 字体图标
+@import "icon.less";
+// css3效果
+@import "css3effects.less";
+// 按扭
+@import "button.less";
+// 表单
+@import "form.less";
+// Load-import-end-------------------- //
 
-/* =定位-------- */
-.s-pr{
-    position:relative;
-}
-.s-pa{
-    position:absolute;
-}
-.s-fl{
-    float:left;display:inline;
-}
-.s-fr{
-    float:right;display:inline;
-}
-// Load-import
-@import "icon.less";  // 字体图标 
-@import "css3effects.less"; // css3效果
-@import "button.less";  // 按扭
-@import "form.less";  // 表单
-// -----------------------------------
+// initial-begin-----------------------------//
+// 按扭图标大小，决定按扭大小
 @Size:30px;
-
+// 按扭颜色
 @DefaultColor:#334D5C;  // 默认色
 @BlueColor:#3498db;  // 蓝色
 @YellowColor:#ffa324; // 黄色
 @GreenColor:#45B29D; // 绿色
 @RedColor:#DF5A49;  // 红色
 @DisableColor:#f2f2f2;  // 不可点击色
+// initial-end-----------------------------//
 
 
 
